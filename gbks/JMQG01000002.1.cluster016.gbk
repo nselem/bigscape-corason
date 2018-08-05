@@ -1,0 +1,1511 @@
+LOCUS       JMQG01000034           18460 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Amycolatopsis mediterranei strain DSM 46096 contig034, whole genome
+            shotgun sequence.
+ACCESSION   JMQG01000034
+VERSION     JMQG01000034.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            1..1317
+                     /locus_tag="DV36_22200"
+     CDS             1..1317
+                     /locus_tag="DV36_22200"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229166.1"
+                     /codon_start=1
+                     /product="pectate lyase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MKLAVSLVVFATAVTVAGAPVAAGSPAAGKTYYVAPAGSDSAPGT
+                     QAAPWASVAHAQAIAQAGDTVYLRGGTYAYSRANKACASQTDRVDAITLDKSGSSGNPI
+                     RYWAYPGETPVFDFSRVGDDCRIKGFDVTGNFIHLKGLEVKGVPQNNNLNHESWGIWVS
+                     GSDNTFELLNLHNNMGPGLFIQDGGGNLVLNSDSHDNYDPRTSNGAGESADGFGAHISA
+                     GHPGNVFRGCRAWWNSDDGFDLINAFSPVTIENSWAWRNGYLPETTTSSGNGNGFKMGG
+                     YGGKYVANGVKHTVRTSVAFNNKAAGFYANHHTLANDYFNNTSYNNHPDYNMLGITSSS
+                     AATGLGNLRNNVAYGGTLLSNMSGTSARANSWNGGGTLSDAQFRSVSTSGWDARRQADG
+                     SLPVLPNLRLAAGSWLIDKGTDVGLPYHGSAPDLGAFES"
+                     /protein_id="KDU89986.1"
+     cluster         1..18460
+                     /note="Cluster number: 16"
+                     /cutoff=20000
+                     /product="cf_saccharide"
+                     /extension=10000
+                     /probability="0.8625"
+     PFAM_domain     109..231
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22200"
+                     /description="Protein of unknown function (DUF1565)"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.00E-03"
+                     /domain="DUF1565"
+                     /asDomain_id="fullhmmer_DV36_22200_0002"
+                     /note="Pfam-A.hmm-Hit: DUF1565. Score: 16.0. E-value:
+                     0.005. Domain range: 1..42."
+                     /note="ClusterFinder probability: 0.340325285905"
+                     /db_xref="PFAM: PF07602"
+                     /score="16.0"
+                     /aSTool="fullhmmer"
+                     /translation="AGSDSAPGTQAAPWASVAHAQAIAQAGDTVYLRGGTYAYSR"
+                     /label="DV36_22200"
+     PFAM_domain     448..969
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22200"
+                     /description="Right handed beta helix region"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.40E-09"
+                     /domain="Beta_helix"
+                     /asDomain_id="fullhmmer_DV36_22200_0001"
+                     /note="Pfam-A.hmm-Hit: Beta_helix. Score: 37.8. E-value:
+                     1.4e-09. Domain range: 14..157."
+                     /score="37.8"
+                     /aSTool="fullhmmer"
+                     /translation="NNNLNHESWGIWVSGSDNTFELLNLHNNMGPGLFIQDGGGNLVLN
+                     SDSHDNYDPRTSNGAGESADGFGAHISAGHPGNVFRGCRAWWNSDDGFDLINAFSPVTI
+                     ENSWAWRNGYLPETTTSSGNGNGFKMGGYGGKYVANGVKHTVRTSVAFNNKAAGFYANH
+                     HTLANDYFNNT"
+                     /label="DV36_22200"
+     gene            1446..1823
+                     /locus_tag="DV36_22205"
+     CDS             1446..1823
+                     /locus_tag="DV36_22205"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229165.1"
+                     /codon_start=1
+                     /product="glyoxalase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MAIRLGSTVINCTDLETMTRFWCAALGLEPASEADDFRLLRGPHV
+                     NLSLQRSPVSARDQMHLDLYTDDQEHEVDRLIGLGARFVRHVDDDPADDWVILADPEEN
+                     LFCVCAKPADEVRDPGAGSAA"
+                     /protein_id="KDU89987.1"
+     PFAM_domain     1458..1766
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22205"
+                     /description="Glyoxalase/Bleomycin resistance
+                     protein/Dioxyge"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.90E-07"
+                     /domain="Glyoxalase"
+                     /asDomain_id="fullhmmer_DV36_22205_0002"
+                     /note="Pfam-A.hmm-Hit: Glyoxalase. Score: 31.0. E-value:
+                     1.9e-07. Domain range: 1..127."
+                     /note="ClusterFinder probability: 0.453482096455"
+                     /db_xref="PFAM: PF00903"
+                     /score="31.0"
+                     /aSTool="fullhmmer"
+                     /translation="LGSTVINCTDLETMTRFWCAALGLEPASEADDFRLLRGPHVNLSL
+                     QRSPVSARDQMHLDLYTDDQEHEVDRLIGLGARFVRHVDDDPADDWVILADPEENLFC"
+                     /label="DV36_22205"
+     PFAM_domain     1473..1772
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22205"
+                     /description="Glyoxalase-like domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="9.90E-12"
+                     /domain="Glyoxalase_2"
+                     /asDomain_id="fullhmmer_DV36_22205_0001"
+                     /note="Pfam-A.hmm-Hit: Glyoxalase_2. Score: 45.4. E-value:
+                     9.9e-12. Domain range: 0..108."
+                     /score="45.4"
+                     /aSTool="fullhmmer"
+                     /translation="INCTDLETMTRFWCAALGLEPASEADDFRLLRGPHVNLSLQRSPV
+                     SARDQMHLDLYTDDQEHEVDRLIGLGARFVRHVDDDPADDWVILADPEENLFCVC"
+                     /label="DV36_22205"
+     gene            1970..2734
+                     /locus_tag="DV36_22210"
+     CDS             1970..2734
+                     /locus_tag="DV36_22210"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229164.1"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MRYVAPGDEAALAGQLRADERCDEGLERGAVQVASVEATYRTGAV
+                     VDPAGQVEHYAAATSEALAAGFTGLRVAADATSLVRTPAQVDAFARYEHLVDHYLAGHP
+                     MSAMCGQDVAELGREAVAQLACMHPAAHDGATPFHLHAHARDGSAAALDGELDLEARRL
+                     WPPVLERAGLRPEGGTIAIDAAGLEFVDHRSLVALAGYAERHGGPAHAIVHARPARRAS
+                     RTGRPSPSAFELGGGVQPLRRSGAVPGSCAAA"
+                     /protein_id="KDU89988.1"
+     PFAM_domain     1991..2362
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22210"
+                     /description="MEDS: MEthanogen/methylotroph, DcmR Sensory
+                     do"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.10E-13"
+                     /domain="MEDS"
+                     /asDomain_id="fullhmmer_DV36_22210_0001"
+                     /note="Pfam-A.hmm-Hit: MEDS. Score: 49.2. E-value: 3.1e-13.
+                     Domain range: 58..181."
+                     /score="49.2"
+                     /aSTool="fullhmmer"
+                     /translation="DEAALAGQLRADERCDEGLERGAVQVASVEATYRTGAVVDPAGQV
+                     EHYAAATSEALAAGFTGLRVAADATSLVRTPAQVDAFARYEHLVDHYLAGHPMSAMCGQ
+                     DVAELGREAVAQLACMHPAA"
+                     /label="DV36_22210"
+     PFAM_domain     2423..2611
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22210"
+                     /description="STAS domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.80E-04"
+                     /domain="STAS_2"
+                     /asDomain_id="fullhmmer_DV36_22210_0002"
+                     /note="Pfam-A.hmm-Hit: STAS_2. Score: 21.4. E-value:
+                     0.00018. Domain range: 2..63."
+                     /score="21.4"
+                     /aSTool="fullhmmer"
+                     /translation="LDGELDLEARRLWPPVLERAGLRPEGGTIAIDAAGLEFVDHRSLV
+                     ALAGYAERHGGPAHAIVH"
+                     /label="DV36_22210"
+     gene            complement(2691..3632)
+                     /locus_tag="DV36_22215"
+     CDS             complement(2691..3632)
+                     /locus_tag="DV36_22215"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229163.1"
+                     /codon_start=1
+                     /product="lysyl oxidase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MLKKFAVLALVALSATVSASAPRADAAPDLLLPDLRQAVPGCAGG
+                     SSGELPLCTAWDVCPVVDPAAPNGRCVAPSVAKAVRLRFTSAEENVGDGPLLLYGRRDS
+                     TNQQTMTVRQALRNGADGSIPDSYAAAQRATGAFTYYEPAPAHQHWHLMNFERFALVSP
+                     QGETVVTDRKNGFCLGDRFPVHDVGRLKNVPGGSGADASLADTLRGNMCRHHEPTALEV
+                     VEGISVGAGDDYKYPVDFQWLDITHVPTGTYDLVNTVNADRTLLETNYGNNSSAVALAI
+                     AWPLGMPGADGTIPAAPVVKLLRSCPGQPRCA"
+                     /protein_id="KDU89989.1"
+     PFAM_domain     complement(2811..3029)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22215"
+                     /description="Lysyl oxidase"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.60E-08"
+                     /domain="Lysyl_oxidase"
+                     /asDomain_id="fullhmmer_DV36_22215_0001"
+                     /note="Pfam-A.hmm-Hit: Lysyl_oxidase. Score: 33.7. E-value:
+                     2.6e-08. Domain range: 110..183."
+                     /note="ClusterFinder probability: 0.668729920631"
+                     /db_xref="PFAM: PF01186"
+                     /score="33.7"
+                     /aSTool="fullhmmer"
+                     /translation="SLADTLRGNMCRHHEPTALEVVEGISVGAGDDYKYPVDFQWLDIT
+                     HVPTGTYDLVNTVNADRTLLETNYGNNS"
+                     /label="DV36_22215"
+     gene            3795..4970
+                     /locus_tag="DV36_22220"
+     CDS             3795..4970
+                     /locus_tag="DV36_22220"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229162.1"
+                     /codon_start=1
+                     /product="UDP-N-acetylglucosamine 2-epimerase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MSTTTADFRADTGSSPAVRPAGTGGITLVCGTRPELIKLAPLMRV
+                     FGDECAVVYTGQHYDRSLYARIRADLPPSDRFHELGVGAGRRGGQLGRTISAVDEVLAD
+                     RPGRAVLVQGDTTSALAGALAANAHDLPLVHVEAGLRSHDRAMPEEHNRVLIDHLADLC
+                     CAPTELNRAHLLAENVPAERIAVTGNTVVEALQAALPAAEDRRAVLAARGLERDRFVLA
+                     TIHRPENVDDAGRLAVILRELGRLQLPVVFPLHPRTAKSVEGFGLRHLLEPLVELEPQA
+                     YPAFLALAAEAAVIVSDSGGIQEEASVLKRPVVVVRRSTERPEIAGTFGTRVLPGPSIG
+                     TEVARWLDDVAGHRERLRHLPSPYGDGSASARIVTALGTLLDQRAGSVTAG"
+                     /protein_id="KDU89990.1"
+     PFAM_domain     3939..4361
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22220"
+                     /description="Glycosyl transferase 4-like domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.60E-06"
+                     /domain="Glyco_trans_4_4"
+                     /asDomain_id="fullhmmer_DV36_22220_0002"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_4_4. Score: 27.6.
+                     E-value: 2.6e-06. Domain range: 19..159."
+                     /score="27.6"
+                     /aSTool="fullhmmer"
+                     /translation="ECAVVYTGQHYDRSLYARIRADLPPSDRFHELGVGAGRRGGQLGR
+                     TISAVDEVLADRPGRAVLVQGDTTSALAGALAANAHDLPLVHVEAGLRSHDRAMPEEHN
+                     RVLIDHLADLCCAPTELNRAHLLAENVPAERIAVTGN"
+                     /label="DV36_22220"
+     PFAM_domain     3939..4925
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22220"
+                     /description="UDP-N-acetylglucosamine 2-epimerase"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.60E-80"
+                     /domain="Epimerase_2"
+                     /asDomain_id="fullhmmer_DV36_22220_0001"
+                     /note="Pfam-A.hmm-Hit: Epimerase_2. Score: 268.7. E-value:
+                     5.6e-80. Domain range: 9..345."
+                     /note="ClusterFinder probability: 0.893819557654"
+                     /db_xref="PFAM: PF02350"
+                     /score="268.7"
+                     /aSTool="fullhmmer"
+                     /translation="ECAVVYTGQHYDRSLYARIRADLPPSDRFHELGVGAGRRGGQLGR
+                     TISAVDEVLADRPGRAVLVQGDTTSALAGALAANAHDLPLVHVEAGLRSHDRAMPEEHN
+                     RVLIDHLADLCCAPTELNRAHLLAENVPAERIAVTGNTVVEALQAALPAAEDRRAVLAA
+                     RGLERDRFVLATIHRPENVDDAGRLAVILRELGRLQLPVVFPLHPRTAKSVEGFGLRHL
+                     LEPLVELEPQAYPAFLALAAEAAVIVSDSGGIQEEASVLKRPVVVVRRSTERPEIAGTF
+                     GTRVLPGPSIGTEVARWLDDVAGHRERLRHLPSPYGDGSASARIVTAL"
+                     /label="DV36_22220"
+     gene            complement(4940..6250)
+                     /locus_tag="DV36_22225"
+     CDS             complement(4940..6250)
+                     /locus_tag="DV36_22225"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229161.1"
+                     /codon_start=1
+                     /product="oxidoreductase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MTPPDSAHVAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQLGGLG
+                     TFFADGDQWAERFYHCIMPSDASLLALLGELGLRDAVQWRETTMGMVVDGRRHPFNSPL
+                     DLLRFSPLRLHDRVRFGVVSLLLRRLGRGRDLDNLRTEDWLRGLYGDVVWERLFAPMFG
+                     SKFGPSFGDVPALYLWQRLGRERNVATRGYPDGGYKTIIDALRASIEGAGGVVRTSAPV
+                     RRLHSTGGRSVLTLTGGEVLDADHVISTVPLPLLRRIADDALAARLPATDLPYQGVVTG
+                     VFFLRRPVTEHYWTPVLHSGTEFDGVVAMSALAGSRDGRHLVYVMHYTDRDSQLYLDDD
+                     TAIAARWSAQLRGLYPELGADDIEQVRVFKAPFVEPVYPLGYRAARPPVTVDGTGLLLA
+                     TTAHVYPDVTSWNSSVALANDVVAALADQPAVTEPAR"
+                     /protein_id="KDU89991.1"
+     PFAM_domain     complement(5153..5653)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="FAD dependent oxidoreductase"
+                     /database="Pfam-A.hmm"
+                     /evalue="7.80E-03"
+                     /domain="DAO"
+                     /asDomain_id="fullhmmer_DV36_22225_0003"
+                     /note="Pfam-A.hmm-Hit: DAO. Score: 15.1. E-value: 0.0078.
+                     Domain range: 147..310."
+                     /note="ClusterFinder probability: 0.999842020931"
+                     /db_xref="PFAM: PF01266"
+                     /score="15.1"
+                     /aSTool="fullhmmer"
+                     /translation="TIIDALRASIEGAGGVVRTSAPVRRLHSTGGRSVLTLTGGEVLDA
+                     DHVISTVPLPLLRRIADDALAARLPATDLPYQGVVTGVFFLRRPVTEHYWTPVLHSGTE
+                     FDGVVAMSALAGSRDGRHLVYVMHYTDRDSQLYLDDDTAIAARWSAQLRGLYPELGADD
+                     IEQV"
+                     /label="DV36_22225"
+     PFAM_domain     complement(5411..6205)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="Flavin containing amine oxidoreductase"
+                     /database="Pfam-A.hmm"
+                     /evalue="7.50E-20"
+                     /domain="Amino_oxidase"
+                     /asDomain_id="fullhmmer_DV36_22225_0001"
+                     /note="Pfam-A.hmm-Hit: Amino_oxidase. Score: 71.4. E-value:
+                     7.5e-20. Domain range: 0..293."
+                     /note="ClusterFinder probability: 0.993464397567"
+                     /db_xref="PFAM: PF01593"
+                     /score="71.4"
+                     /aSTool="fullhmmer"
+                     /translation="ICGLAAAHRLVRRGTRVTLLEGSDQLGGLGTFFADGDQWAERFYH
+                     CIMPSDASLLALLGELGLRDAVQWRETTMGMVVDGRRHPFNSPLDLLRFSPLRLHDRVR
+                     FGVVSLLLRRLGRGRDLDNLRTEDWLRGLYGDVVWERLFAPMFGSKFGPSFGDVPALYL
+                     WQRLGRERNVATRGYPDGGYKTIIDALRASIEGAGGVVRTSAPVRRLHSTGGRSVLTLT
+                     GGEVLDADHVISTVPLPLLRRIADDALAARLPATDLPYQGVVT"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6050..6220)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="NAD(P)-binding Rossmann-like domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="9.30E-10"
+                     /domain="NAD_binding_8"
+                     /asDomain_id="fullhmmer_DV36_22225_0004"
+                     /note="Pfam-A.hmm-Hit: NAD_binding_8. Score: 38.3. E-value:
+                     9.3e-10. Domain range: 0..59."
+                     /score="38.3"
+                     /aSTool="fullhmmer"
+                     /translation="VIGGGICGLAAAHRLVRRGTRVTLLEGSDQLGGLGTFFADGDQWA
+                     ERFYHCIMPSDA"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6062..6229)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="Flavin-binding monooxygenase-like"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.50E-03"
+                     /domain="FMO-like"
+                     /asDomain_id="fullhmmer_DV36_22225_0011"
+                     /note="Pfam-A.hmm-Hit: FMO-like. Score: 16.0. E-value:
+                     0.0025. Domain range: 2..58."
+                     /note="ClusterFinder probability: 0.999999944629"
+                     /db_xref="PFAM: PF00743"
+                     /score="16.0"
+                     /aSTool="fullhmmer"
+                     /translation="HVAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQLGGLGTFFADGD
+                     QWAERFYHCIM"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6086..6226)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="FAD binding domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.00E-06"
+                     /domain="FAD_binding_2"
+                     /asDomain_id="fullhmmer_DV36_22225_0005"
+                     /note="Pfam-A.hmm-Hit: FAD_binding_2. Score: 27.8. E-value:
+                     1e-06. Domain range: 1..47."
+                     /note="ClusterFinder probability: 0.999936004395"
+                     /db_xref="PFAM: PF00890"
+                     /score="27.8"
+                     /aSTool="fullhmmer"
+                     /translation="VAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQLGGLGTFFADGDQ
+                     WA"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6113..6226)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="FAD dependent oxidoreductase"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.90E-06"
+                     /domain="FAD_oxidored"
+                     /asDomain_id="fullhmmer_DV36_22225_0006"
+                     /note="Pfam-A.hmm-Hit: FAD_oxidored. Score: 26.6. E-value:
+                     2.9e-06. Domain range: 1..39."
+                     /score="26.6"
+                     /aSTool="fullhmmer"
+                     /translation="VAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQLGGLGT"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6116..6229)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="Thi4 family"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.80E-03"
+                     /domain="Thi4"
+                     /asDomain_id="fullhmmer_DV36_22225_0013"
+                     /note="Pfam-A.hmm-Hit: Thi4. Score: 15.7. E-value: 0.0058.
+                     Domain range: 18..55."
+                     /note="ClusterFinder probability: 0.999901903759"
+                     /db_xref="PFAM: PF01946"
+                     /score="15.7"
+                     /aSTool="fullhmmer"
+                     /translation="HVAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQLGGLG"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6122..6229)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="FAD dependent oxidoreductase"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.00E-07"
+                     /domain="DAO"
+                     /asDomain_id="fullhmmer_DV36_22225_0002"
+                     /note="Pfam-A.hmm-Hit: DAO. Score: 31.2. E-value: 1e-07.
+                     Domain range: 0..35."
+                     /note="ClusterFinder probability: 0.999300356166"
+                     /db_xref="PFAM: PF01266"
+                     /score="31.2"
+                     /aSTool="fullhmmer"
+                     /translation="HVAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQLGG"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6125..6226)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="Glucose inhibited division protein A"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.40E-03"
+                     /domain="GIDA"
+                     /asDomain_id="fullhmmer_DV36_22225_0012"
+                     /note="Pfam-A.hmm-Hit: GIDA. Score: 16.2. E-value: 0.0034.
+                     Domain range: 1..36."
+                     /note="ClusterFinder probability: 0.999951125142"
+                     /db_xref="PFAM: PF01134"
+                     /score="16.2"
+                     /aSTool="fullhmmer"
+                     /translation="VAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQLG"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6125..6229)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="HI0933-like protein"
+                     /database="Pfam-A.hmm"
+                     /evalue="8.80E-04"
+                     /domain="HI0933_like"
+                     /asDomain_id="fullhmmer_DV36_22225_0007"
+                     /note="Pfam-A.hmm-Hit: HI0933_like. Score: 17.8. E-value:
+                     0.00088. Domain range: 1..36."
+                     /note="ClusterFinder probability: 0.999980277544"
+                     /db_xref="PFAM: PF03486"
+                     /score="17.8"
+                     /aSTool="fullhmmer"
+                     /translation="HVAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQLG"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6125..6229)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="Pyridine nucleotide-disulphide
+                     oxidoreductase"
+                     /database="Pfam-A.hmm"
+                     /evalue="9.50E-05"
+                     /domain="Pyr_redox"
+                     /asDomain_id="fullhmmer_DV36_22225_0008"
+                     /note="Pfam-A.hmm-Hit: Pyr_redox. Score: 22.7. E-value:
+                     9.5e-05. Domain range: 0..35."
+                     /note="ClusterFinder probability: 0.9998772581"
+                     /db_xref="PFAM: PF00070"
+                     /score="22.7"
+                     /aSTool="fullhmmer"
+                     /translation="HVAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQLG"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6128..6226)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="Pyridine nucleotide-disulphide
+                     oxidoreductase"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.40E-04"
+                     /domain="Pyr_redox_2"
+                     /asDomain_id="fullhmmer_DV36_22225_0009"
+                     /note="Pfam-A.hmm-Hit: Pyr_redox_2. Score: 21.0. E-value:
+                     0.00024. Domain range: 1..34."
+                     /note="ClusterFinder probability: 0.999876029322"
+                     /db_xref="PFAM: PF07992"
+                     /score="21.0"
+                     /aSTool="fullhmmer"
+                     /translation="VAVIGGGICGLAAAHRLVRRGTRVTLLEGSDQL"
+                     /label="DV36_22225"
+     PFAM_domain     complement(6143..6229)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22225"
+                     /description="FAD binding domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.30E-03"
+                     /domain="FAD_binding_3"
+                     /asDomain_id="fullhmmer_DV36_22225_0010"
+                     /note="Pfam-A.hmm-Hit: FAD_binding_3. Score: 17.0. E-value:
+                     0.0023. Domain range: 2..31."
+                     /note="ClusterFinder probability: 0.999973449135"
+                     /db_xref="PFAM: PF01494"
+                     /score="17.0"
+                     /aSTool="fullhmmer"
+                     /translation="HVAVIGGGICGLAAAHRLVRRGTRVTLLE"
+                     /label="DV36_22225"
+     gene            complement(6255..7085)
+                     /locus_tag="DV36_22230"
+     CDS             complement(6255..7085)
+                     /locus_tag="DV36_22230"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229160.1"
+                     /codon_start=1
+                     /product="dolichol-phosphate mannosyltransferase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /sec_met="Type: cf_saccharide"
+                     /sec_met="Domains detected: Glycos_transf_2 (E-value:
+                     1.5e-26, bitscore: 86.7, seeds: 256)"
+                     /sec_met="Kind: biosynthetic"
+                     /translation="MALEETTLATLSEPDRTGPDPTGGRTGGRAHVVLPAFNEEASLPP
+                     LLRRLADVARTEQVTVWVVDDGSADATVAVAESGYGGLDVRVVRHLVNLGLGRAVQSGL
+                     RAALEEAGPDDVVVVMDADDTHDPALIRALQAEITAGADVAICSRFVPGGDDRTAPFGR
+                     RLLSRGAAQLFHRALDVDGVRDFTSGYRAYRASLLARASAHWGERLIEEQGFACMVELL
+                     LKLRHCRPVITEVPLALRYDRKQGPSKLKLRRTLVQYLKLLARDRLSPAPYRKL"
+                     /protein_id="KDU89992.1"
+     PFAM_domain     complement(6465..6998)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22230"
+                     /description="Glycosyltransferase like family 2"
+                     /database="Pfam-A.hmm"
+                     /evalue="7.80E-14"
+                     /domain="Glyco_tranf_2_3"
+                     /asDomain_id="fullhmmer_DV36_22230_0002"
+                     /note="Pfam-A.hmm-Hit: Glyco_tranf_2_3. Score: 52.0.
+                     E-value: 7.8e-14. Domain range: 2..179."
+                     /score="52.0"
+                     /aSTool="fullhmmer"
+                     /translation="AHVVLPAFNEEASLPPLLRRLADVARTEQVTVWVVDDGSADATVA
+                     VAESGYGGLDVRVVRHLVNLGLGRAVQSGLRAALEEAGPDDVVVVMDADDTHDPALIRA
+                     LQAEITAGADVAICSRFVPGGDDRTAPFGRRLLSRGAAQLFHRALDVDGVRDFTSGYRA
+                     YRASLLARASAHWGE"
+                     /label="DV36_22230"
+     PFAM_domain     complement(6507..6992)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22230"
+                     /description="Glycosyl transferase family 2"
+                     /database="Pfam-A.hmm"
+                     /evalue="9.20E-25"
+                     /domain="Glycos_transf_2"
+                     /asDomain_id="fullhmmer_DV36_22230_0001"
+                     /note="Pfam-A.hmm-Hit: Glycos_transf_2. Score: 87.2.
+                     E-value: 9.2e-25. Domain range: 1..160."
+                     /note="ClusterFinder probability: 0.979635294228"
+                     /db_xref="PFAM: PF00535"
+                     /score="87.2"
+                     /aSTool="fullhmmer"
+                     /translation="VVLPAFNEEASLPPLLRRLADVARTEQVTVWVVDDGSADATVAVA
+                     ESGYGGLDVRVVRHLVNLGLGRAVQSGLRAALEEAGPDDVVVVMDADDTHDPALIRALQ
+                     AEITAGADVAICSRFVPGGDDRTAPFGRRLLSRGAAQLFHRALDVDGVRDFTSGYRAY"
+                     /label="DV36_22230"
+     PFAM_domain     complement(6624..6953)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22230"
+                     /description="MobA-like NTP transferase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.50E-05"
+                     /domain="NTP_transf_3"
+                     /asDomain_id="fullhmmer_DV36_22230_0003"
+                     /note="Pfam-A.hmm-Hit: NTP_transf_3. Score: 23.0. E-value:
+                     6.5e-05. Domain range: 24..126."
+                     /score="23.0"
+                     /aSTool="fullhmmer"
+                     /translation="PLLRRLADVARTEQVTVWVVDDGSADATVAVAESGYGGLDVRVVR
+                     HLVNLGLGRAVQSGLRAALEEAGPDDVVVVMDADDTHDPALIRALQAEITAGADVAICS
+                     RFVPGG"
+                     /label="DV36_22230"
+     gene            7400..8830
+                     /locus_tag="DV36_22235"
+     CDS             7400..8830
+                     /locus_tag="DV36_22235"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229159.1"
+                     /codon_start=1
+                     /product="UDP-phosphate galactose phosphotransferase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MTELRDTVVTEAVPAQRRVRPGDRPRDAVRARPLLARVNAVAVLL
+                     VAVDGAAWLAAVLRTGPVPACAAVTAAALAGARVAGRVHRRRLWLSWLQDLPRSVTATA
+                     LAFALVTGFGLVAGMDGDDTARMQEVVLCFAVLSEAARPAVFAFGRWGRRRLRRCDRAV
+                     VVGSGRIGGELVRTMLEHPEFGLLPVGVAASGPEPVPPGLPVERIDGDLTGAIARLRAG
+                     TVILAPADDSGGAIVDAAITAHRLGCVTLVLPHLFELCPDGPGVDRLRSYPLVWLGGAP
+                     TRRPSWWVKRAVETTLAAAALVVLAPVIAVCALAVAVESGFPVFFRQVRVGMDGGTFVL
+                     YKLRSVRQAAVDDSQTRWSVVGDHRVGPVGRFLRRSSLDELPQLWNVVRGDMSLVGPRP
+                     ERPVFVHEFSAVHDLYWARHRVPTGLTGLAQVHGLRGDTSIADRARYDNYYIANWSLWL
+                     DVKIIILTVGELLCRRQR"
+                     /protein_id="KDU89993.1"
+     PFAM_domain     7682..8032
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22235"
+                     /description="CoA-binding domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="7.10E-03"
+                     /domain="CoA_binding_3"
+                     /asDomain_id="fullhmmer_DV36_22235_0002"
+                     /note="Pfam-A.hmm-Hit: CoA_binding_3. Score: 16.1. E-value:
+                     0.0071. Domain range: 16..132."
+                     /score="16.1"
+                     /aSTool="fullhmmer"
+                     /translation="DLPRSVTATALAFALVTGFGLVAGMDGDDTARMQEVVLCFAVLSE
+                     AARPAVFAFGRWGRRRLRRCDRAVVVGSGRIGGELVRTMLEHPEFGLLPVGVAASGPEP
+                     VPPGLPVERIDGD"
+                     /label="DV36_22235"
+     PFAM_domain     8267..8812
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22235"
+                     /description="Bacterial sugar transferase"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.20E-61"
+                     /domain="Bac_transf"
+                     /asDomain_id="fullhmmer_DV36_22235_0001"
+                     /note="Pfam-A.hmm-Hit: Bac_transf. Score: 205.0. E-value:
+                     5.2e-61. Domain range: 0..182."
+                     /note="ClusterFinder probability: 0.958693084204"
+                     /db_xref="PFAM: PF02397"
+                     /score="205.0"
+                     /aSTool="fullhmmer"
+                     /translation="KRAVETTLAAAALVVLAPVIAVCALAVAVESGFPVFFRQVRVGMD
+                     GGTFVLYKLRSVRQAAVDDSQTRWSVVGDHRVGPVGRFLRRSSLDELPQLWNVVRGDMS
+                     LVGPRPERPVFVHEFSAVHDLYWARHRVPTGLTGLAQVHGLRGDTSIADRARYDNYYIA
+                     NWSLWLDVKIIILTVGELL"
+                     /label="DV36_22235"
+     gene            8812..10218
+                     /locus_tag="DV36_22240"
+     CDS             8812..10218
+                     /locus_tag="DV36_22240"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229158.1"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MPKATLMRHHPVACWTAAFVLLAGCLAGCVASSAQEIAVPPPKPL
+                     APCAWWYGIGQPPTAQEIELAAKRYQVVVLNADQGAAMRRLHQLNSRVKVLVYKDLSST
+                     RNYPGAVDGGQDAVFLPSGIGYVAAQEHHPEWFAQDVNGRRIEWQGYPRHWQMTVWNPD
+                     YQQAWTDAVVAEVTREGWDGVLADNDFNSLSHYSSAVLAGTANVAETDRKLRDGLDAFL
+                     SKAGDALTNAQKLMVPNVSETHLVPGRWTAHSRFGGAMEENFGFRENGGTGGLLTFRGN
+                     EFQELRAQAALGESLLLLVTRTHNAREERSGYASAALLAGPRTCWTRATTDDYRDPEWS
+                     ALQDSGLGEAIDAASRLPNGVWTRTFSHGWVAVNTTASTQTVEPPPGLVKPGAPAPTPT
+                     PTPTPTRTSTPTSAPTSTRTSAPTSTPAPPSLTLEAADAIILVDPQQLVKRGTWRITRD
+                     EFRIGRLWAR"
+                     /protein_id="KDU89994.1"
+     PFAM_domain     9175..9384
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22240"
+                     /description="Hypothetical glycosyl hydrolase family 15"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.00E-23"
+                     /domain="GHL15"
+                     /asDomain_id="fullhmmer_DV36_22240_0001"
+                     /note="Pfam-A.hmm-Hit: GHL15. Score: 81.1. E-value: 5e-23.
+                     Domain range: 2..78."
+                     /score="81.1"
+                     /aSTool="fullhmmer"
+                     /translation="SGIGYVAAQEHHPEWFAQDVNGRRIEWQGYPRHWQMTVWNPDYQQ
+                     AWTDAVVAEVTREGWDGVLADNDFN"
+                     /label="DV36_22240"
+     PFAM_domain     9199..9372
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22240"
+                     /description="Hypothetical glycosyl hydrolase 6"
+                     /database="Pfam-A.hmm"
+                     /evalue="4.30E-04"
+                     /domain="GHL6"
+                     /asDomain_id="fullhmmer_DV36_22240_0002"
+                     /note="Pfam-A.hmm-Hit: GHL6. Score: 20.3. E-value: 0.00043.
+                     Domain range: 72..131."
+                     /score="20.3"
+                     /aSTool="fullhmmer"
+                     /translation="QEHHPEWFAQDVNGRRIEWQGYPRHWQMTVWNPDYQQAWTDAVVA
+                     EVTREGWDGVLAD"
+                     /label="DV36_22240"
+     gene            complement(10350..11480)
+                     /locus_tag="DV36_22245"
+     CDS             complement(10350..11480)
+                     /locus_tag="DV36_22245"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229157.1"
+                     /codon_start=1
+                     /product="glycosyl transferase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /sec_met="Type: cf_saccharide"
+                     /sec_met="Domains detected: Glycos_transf_1 (E-value:
+                     6.5e-26, bitscore: 84.4, seeds: 63)"
+                     /sec_met="Kind: biosynthetic"
+                     /translation="MTRIAYLLTQDRGGPVDVTVRLAATLADDGHDVRVFGPVPARGAA
+                     LLDGHHEELAVTGKEDLAAAGRARAALRAWRPDVVHAQDRRAGLVIAGLRFARGARPAL
+                     VQTYHGVPDDVAEPWFRGARGAAGPSAYTRTVLAADAVVARVLDRTIVPAEAMGAFLRR
+                     RLRVPAGRLVHVDNCVSAASPSPPQGPVRHLVFAGLLVERKGALDLLAALSLPGVLPPD
+                     ARLTVIGDGPERAAAERAARQPPLAGRVTFLGFRPDVPALLAGADALVLPSTMEQQPLV
+                     VAEAMAAGKPVLATATGGVPAMLDVPGTPAFLAPPGDVPALADRLRALFAEPDPGRLGR
+                     LLAERAHARYRPEACARRHLDLYDQLTRSCRPANHG"
+                     /protein_id="KDU89995.1"
+     PFAM_domain     complement(10407..10670)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22245"
+                     /description="Glycosyl transferases group 1"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.80E-03"
+                     /domain="Glyco_trans_1_2"
+                     /asDomain_id="fullhmmer_DV36_22245_0005"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_1_2. Score: 18.4.
+                     E-value: 0.0018. Domain range: 3..89."
+                     /score="18.4"
+                     /aSTool="fullhmmer"
+                     /translation="LPSTMEQQPLVVAEAMAAGKPVLATATGGVPAMLDVPGTPAFLAP
+                     PGDVPALADRLRALFAEPDPGRLGRLLAERAHARYRPEACARR"
+                     /label="DV36_22245"
+     PFAM_domain     complement(10482..10901)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22245"
+                     /description="Glycosyl transferases group 1"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.90E-24"
+                     /domain="Glycos_transf_1"
+                     /asDomain_id="fullhmmer_DV36_22245_0001"
+                     /note="Pfam-A.hmm-Hit: Glycos_transf_1. Score: 84.3.
+                     E-value: 5.9e-24. Domain range: 17..159."
+                     /note="ClusterFinder probability: 0.936501894358"
+                     /db_xref="PFAM: PF00534"
+                     /score="84.3"
+                     /aSTool="fullhmmer"
+                     /translation="LVFAGLLVERKGALDLLAALSLPGVLPPDARLTVIGDGPERAAAE
+                     RAARQPPLAGRVTFLGFRPDVPALLAGADALVLPSTMEQQPLVVAEAMAAGKPVLATAT
+                     GGVPAMLDVPGTPAFLAPPGDVPALADRLRALFAEP"
+                     /label="DV36_22245"
+     PFAM_domain     complement(10488..10898)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22245"
+                     /description="Glycosyl transferases group 1"
+                     /database="Pfam-A.hmm"
+                     /evalue="4.40E-20"
+                     /domain="Glyco_trans_1_4"
+                     /asDomain_id="fullhmmer_DV36_22245_0002"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_1_4. Score: 72.2.
+                     E-value: 4.4e-20. Domain range: 5..134."
+                     /score="72.2"
+                     /aSTool="fullhmmer"
+                     /translation="VFAGLLVERKGALDLLAALSLPGVLPPDARLTVIGDGPERAAAER
+                     AARQPPLAGRVTFLGFRPDVPALLAGADALVLPSTMEQQPLVVAEAMAAGKPVLATATG
+                     GVPAMLDVPGTPAFLAPPGDVPALADRLRALFA"
+                     /label="DV36_22245"
+     PFAM_domain     complement(10941..11450)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22245"
+                     /description="Glycosyltransferase Family 4"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.60E-08"
+                     /domain="Glyco_transf_4"
+                     /asDomain_id="fullhmmer_DV36_22245_0004"
+                     /note="Pfam-A.hmm-Hit: Glyco_transf_4. Score: 33.7.
+                     E-value: 2.6e-08. Domain range: 9..172."
+                     /score="33.7"
+                     /aSTool="fullhmmer"
+                     /translation="DRGGPVDVTVRLAATLADDGHDVRVFGPVPARGAALLDGHHEELA
+                     VTGKEDLAAAGRARAALRAWRPDVVHAQDRRAGLVIAGLRFARGARPALVQTYHGVPDD
+                     VAEPWFRGARGAAGPSAYTRTVLAADAVVARVLDRTIVPAEAMGAFLRRRLRVPAGRLV
+                     HVDNCVS"
+                     /label="DV36_22245"
+     PFAM_domain     complement(10950..11444)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22245"
+                     /description="Glycosyl transferase 4-like domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="4.50E-15"
+                     /domain="Glyco_trans_4_4"
+                     /asDomain_id="fullhmmer_DV36_22245_0003"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_4_4. Score: 56.1.
+                     E-value: 4.5e-15. Domain range: 0..159."
+                     /score="56.1"
+                     /aSTool="fullhmmer"
+                     /translation="GGPVDVTVRLAATLADDGHDVRVFGPVPARGAALLDGHHEELAVT
+                     GKEDLAAAGRARAALRAWRPDVVHAQDRRAGLVIAGLRFARGARPALVQTYHGVPDDVA
+                     EPWFRGARGAAGPSAYTRTVLAADAVVARVLDRTIVPAEAMGAFLRRRLRVPAGRLVHV
+                     DN"
+                     /label="DV36_22245"
+     PFAM_domain     complement(11148..11432)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22245"
+                     /description="Glycosyl transferase 4-like"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.90E-03"
+                     /domain="Glyco_trans_4_2"
+                     /asDomain_id="fullhmmer_DV36_22245_0006"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_4_2. Score: 17.0.
+                     E-value: 0.0039. Domain range: 10..109."
+                     /score="17.0"
+                     /aSTool="fullhmmer"
+                     /translation="DVTVRLAATLADDGHDVRVFGPVPARGAALLDGHHEELAVTGKED
+                     LAAAGRARAALRAWRPDVVHAQDRRAGLVIAGLRFARGARPALVQTYHGV"
+                     /label="DV36_22245"
+     gene            complement(11477..12586)
+                     /locus_tag="DV36_22250"
+     CDS             complement(11477..12586)
+                     /locus_tag="DV36_22250"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229156.1"
+                     /codon_start=1
+                     /product="glycosyl transferase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /sec_met="Type: cf_saccharide"
+                     /sec_met="Domains detected: Glycos_transf_1 (E-value:
+                     1.3e-32, bitscore: 106.2, seeds: 63)"
+                     /sec_met="Kind: biosynthetic"
+                     /translation="MKLVHVSQPVTAGVAVVVLDLAVAQRDRGWSVTIACPPSGWLAGR
+                     ARELGIDVRGWAARRAPGPGSVAEALRLRRLLDDLDPDVVHLHSSKAGLAGRLAVRGGR
+                     PTVFQPHLWSFETAGGPLRRASAAWERLASRWTDLVVCVSDDELAAGRAAGVTAEAEVV
+                     CNGVDTTRFVPGDRLAARRRLGLPEHAPIAVCLGRLAELKGQDQLLSAWPAVLRRLPDA
+                     QLVLAGDGPMGPVWRARHPVAGHASVRWPGHTDEPAAWYTAADVVVLPSRAEGMALVPL
+                     EAMACARPVVAFDVGGMRQSVADAGAVLPPGDVGRLADAVAARLADPGLARREGERGRR
+                     RVELSFDRGRMTDQIAALVDKLTPSERLS"
+                     /protein_id="KDU89996.1"
+     PFAM_domain     complement(11549..11791)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22250"
+                     /description="Glycosyl transferases group 1"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.40E-09"
+                     /domain="Glyco_trans_1_2"
+                     /asDomain_id="fullhmmer_DV36_22250_0006"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_1_2. Score: 36.2.
+                     E-value: 5.4e-09. Domain range: 0..81."
+                     /score="36.2"
+                     /aSTool="fullhmmer"
+                     /translation="VVVLPSRAEGMALVPLEAMACARPVVAFDVGGMRQSVADAGAVLP
+                     PGDVGRLADAVAARLADPGLARREGERGRRRVELSF"
+                     /label="DV36_22250"
+     PFAM_domain     complement(11564..12049)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22250"
+                     /description="Glycosyl transferases group 1"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.10E-30"
+                     /domain="Glycos_transf_1"
+                     /asDomain_id="fullhmmer_DV36_22250_0001"
+                     /note="Pfam-A.hmm-Hit: Glycos_transf_1. Score: 106.3.
+                     E-value: 1.1e-30. Domain range: 4..172."
+                     /note="ClusterFinder probability: 0.919443756383"
+                     /db_xref="PFAM: PF00534"
+                     /score="106.3"
+                     /aSTool="fullhmmer"
+                     /translation="ARRRLGLPEHAPIAVCLGRLAELKGQDQLLSAWPAVLRRLPDAQL
+                     VLAGDGPMGPVWRARHPVAGHASVRWPGHTDEPAAWYTAADVVVLPSRAEGMALVPLEA
+                     MACARPVVAFDVGGMRQSVADAGAVLPPGDVGRLADAVAARLADPGLARREGERGRRR"
+                     /label="DV36_22250"
+     PFAM_domain     complement(11609..12013)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22250"
+                     /description="Glycosyl transferases group 1"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.20E-19"
+                     /domain="Glyco_trans_1_4"
+                     /asDomain_id="fullhmmer_DV36_22250_0003"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_1_4. Score: 69.9.
+                     E-value: 2.2e-19. Domain range: 3..134."
+                     /score="69.9"
+                     /aSTool="fullhmmer"
+                     /translation="IAVCLGRLAELKGQDQLLSAWPAVLRRLPDAQLVLAGDGPMGPVW
+                     RARHPVAGHASVRWPGHTDEPAAWYTAADVVVLPSRAEGMALVPLEAMACARPVVAFDV
+                     GGMRQSVADAGAVLPPGDVGRLADAVAARLA"
+                     /label="DV36_22250"
+     PFAM_domain     complement(12071..12580)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22250"
+                     /description="Glycosyltransferase Family 4"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.10E-18"
+                     /domain="Glyco_transf_4"
+                     /asDomain_id="fullhmmer_DV36_22250_0004"
+                     /note="Pfam-A.hmm-Hit: Glyco_transf_4. Score: 65.1.
+                     E-value: 6.1e-18. Domain range: 2..176."
+                     /score="65.1"
+                     /aSTool="fullhmmer"
+                     /translation="LVHVSQPVTAGVAVVVLDLAVAQRDRGWSVTIACPPSGWLAGRAR
+                     ELGIDVRGWAARRAPGPGSVAEALRLRRLLDDLDPDVVHLHSSKAGLAGRLAVRGGRPT
+                     VFQPHLWSFETAGGPLRRASAAWERLASRWTDLVVCVSDDELAAGRAAGVTAEAEVVCN
+                     GVDTTRF"
+                     /label="DV36_22250"
+     PFAM_domain     complement(12089..12550)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22250"
+                     /description="Glycosyl transferase 4-like domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="4.80E-28"
+                     /domain="Glyco_trans_4_4"
+                     /asDomain_id="fullhmmer_DV36_22250_0002"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_4_4. Score: 98.2.
+                     E-value: 4.8e-28. Domain range: 1..160."
+                     /score="98.2"
+                     /aSTool="fullhmmer"
+                     /translation="GVAVVVLDLAVAQRDRGWSVTIACPPSGWLAGRARELGIDVRGWA
+                     ARRAPGPGSVAEALRLRRLLDDLDPDVVHLHSSKAGLAGRLAVRGGRPTVFQPHLWSFE
+                     TAGGPLRRASAAWERLASRWTDLVVCVSDDELAAGRAAGVTAEAEVVCNG"
+                     /label="DV36_22250"
+     PFAM_domain     complement(12164..12538)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22250"
+                     /description="Glycosyl transferase 4-like"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.00E-10"
+                     /domain="Glyco_trans_4_2"
+                     /asDomain_id="fullhmmer_DV36_22250_0005"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_4_2. Score: 40.0.
+                     E-value: 3e-10. Domain range: 11..136."
+                     /score="40.0"
+                     /aSTool="fullhmmer"
+                     /translation="VVLDLAVAQRDRGWSVTIACPPSGWLAGRARELGIDVRGWAARRA
+                     PGPGSVAEALRLRRLLDDLDPDVVHLHSSKAGLAGRLAVRGGRPTVFQPHLWSFETAGG
+                     PLRRASAAWERLASRWTDLVV"
+                     /label="DV36_22250"
+     gene            complement(12583..14049)
+                     /locus_tag="DV36_22255"
+     CDS             complement(12583..14049)
+                     /locus_tag="DV36_22255"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229155.1"
+                     /codon_start=1
+                     /product="polysaccharide biosynthesis protein"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MGPRRGRREAGAGDVTAALGTRAVRGSLWLGVVNLVSKSSQMLVT
+                     LVLAALLTEGQLGAVALAVALVNLGQVVQSIGVYDVIGRTERDPRRTAGTVLTLSVGAG
+                     IVLAGALVAAAGPLTALLGTPDAAGLVRLAALGLPFSAAGGVQMGLMHRELDFRRRLLP
+                     DGGSAVLGAVLTVVLAACGAGPSALVLGLLATAVTQPLLGALARGGVRPCWDPAAAREV
+                     LGWVAVVGPAAVVGALLVNLDYFAVGHGLGPEAVGVYSLAYRLAWVPYIMVAVVLGAVA
+                     FPVFTRLRREGTPLGGAVTRFTRAVLVVTGGLYLALAVLAGHVVLLGERWAGAAGPLVL
+                     LSGYGLGICLLQIWYQAVKATGHVRRYLALETTHLVLLAVGLTVLTRAGIGAVALVQCG
+                     AAWLVVPAAWRVLAGLGVAPSVAELGGMFARVALACVAGAGPAVVLGRWFGDSLPGAVA
+                     EASVLVAGYAGATLVLQRSALAELRRGGLR"
+                     /protein_id="KDU89997.1"
+     PFAM_domain     complement(13186..13980)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22255"
+                     /description="Polysaccharide biosynthesis protein"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.00E-18"
+                     /domain="Polysacc_synt"
+                     /asDomain_id="fullhmmer_DV36_22255_0001"
+                     /note="Pfam-A.hmm-Hit: Polysacc_synt. Score: 67.6. E-value:
+                     1e-18. Domain range: 1..272."
+                     /note="ClusterFinder probability: 0.907129776835"
+                     /db_xref="PFAM: PF01943"
+                     /score="67.6"
+                     /aSTool="fullhmmer"
+                     /translation="VRGSLWLGVVNLVSKSSQMLVTLVLAALLTEGQLGAVALAVALVN
+                     LGQVVQSIGVYDVIGRTERDPRRTAGTVLTLSVGAGIVLAGALVAAAGPLTALLGTPDA
+                     AGLVRLAALGLPFSAAGGVQMGLMHRELDFRRRLLPDGGSAVLGAVLTVVLAACGAGPS
+                     ALVLGLLATAVTQPLLGALARGGVRPCWDPAAAREVLGWVAVVGPAAVVGALLVNLDYF
+                     AVGHGLGPEAVGVYSLAYRLAWVPYIMVAVVLGAVAFPVFTRL"
+                     /label="DV36_22255"
+     PFAM_domain     complement(13189..13932)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22255"
+                     /description="Polysaccharide biosynthesis protein"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.50E-11"
+                     /domain="Polysacc_synt_3"
+                     /asDomain_id="fullhmmer_DV36_22255_0002"
+                     /note="Pfam-A.hmm-Hit: Polysacc_synt_3. Score: 43.5.
+                     E-value: 2.5e-11. Domain range: 2..250."
+                     /score="43.5"
+                     /aSTool="fullhmmer"
+                     /translation="SQMLVTLVLAALLTEGQLGAVALAVALVNLGQVVQSIGVYDVIGR
+                     TERDPRRTAGTVLTLSVGAGIVLAGALVAAAGPLTALLGTPDAAGLVRLAALGLPFSAA
+                     GGVQMGLMHRELDFRRRLLPDGGSAVLGAVLTVVLAACGAGPSALVLGLLATAVTQPLL
+                     GALARGGVRPCWDPAAAREVLGWVAVVGPAAVVGALLVNLDYFAVGHGLGPEAVGVYSL
+                     AYRLAWVPYIMVAVVLGAVAFPVFTR"
+                     /label="DV36_22255"
+     gene            complement(14004..15116)
+                     /locus_tag="DV36_22260"
+     CDS             complement(14004..15116)
+                     /locus_tag="DV36_22260"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229154.1"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MLGEERLQDFRDALYYPIREFLAGGNPYDPAAMFAHWPVRQDFNL
+                     YQPYHLLLHAPFALPGYRVGAVAFTLFSLLLLVALAAVAAHAVRRYVPVPFAVTTAVVA
+                     ALLVTSQVGKAQLYVGQVNPLIALGAAGAVLARRDRPGWAAAALALAWLKPQYGFPLTV
+                     LLFARGSRRVAVLGTAIAAAASLPVVVLLVVRGGGIGPFAEVVVANLTHARGTDYGAVD
+                     SVTAQRIDVAAVLFRVTGWVPSGVELVVLAGVLVTSALLVQAAKPPIADLLTVLAVVVC
+                     VVHQPGDVLIAVPAMAAVAALWWRHRGGPGWGAAGLAVLALAVPFAYLYTVDSLVGSAL
+                     GSRAAVTVDGVAVVVAWGLAVVAARRVRAT"
+                     /protein_id="KDU89998.1"
+     PFAM_domain     complement(14151..14984)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22260"
+                     /description="Protein of unknown function (DUF2029)"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.00E-11"
+                     /domain="DUF2029"
+                     /asDomain_id="fullhmmer_DV36_22260_0001"
+                     /note="Pfam-A.hmm-Hit: DUF2029. Score: 44.8. E-value:
+                     1e-11. Domain range: 1..234."
+                     /note="ClusterFinder probability: 0.883211837646"
+                     /db_xref="PFAM: PF09594"
+                     /score="44.8"
+                     /aSTool="fullhmmer"
+                     /translation="LYQPYHLLLHAPFALPGYRVGAVAFTLFSLLLLVALAAVAAHAVR
+                     RYVPVPFAVTTAVVAALLVTSQVGKAQLYVGQVNPLIALGAAGAVLARRDRPGWAAAAL
+                     ALAWLKPQYGFPLTVLLFARGSRRVAVLGTAIAAAASLPVVVLLVVRGGGIGPFAEVVV
+                     ANLTHARGTDYGAVDSVTAQRIDVAAVLFRVTGWVPSGVELVVLAGVLVTSALLVQAAK
+                     PPIADLLTVLAVVVCVVHQPGDVLIAVPAMAAVAALWWRHRGGPGWGAAGLAVLAL"
+                     /label="DV36_22260"
+     gene            complement(15347..16201)
+                     /locus_tag="DV36_22265"
+     CDS             complement(15347..16201)
+                     /locus_tag="DV36_22265"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229153.1"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MKYRSVVSSVAVALLVGALVLIVGLTRGAEYQGRVSLLAGPAAAD
+                     GAPYGEVVSLALPALVELARSPSVLSAAAPVSGYGPDELAGHVSVELVPASGLARLSVR
+                     AASPEQAGATAMALAKAMIDADLLAPAGKLRTLDARPEVLTVAPDVPLVGGLALVGAVA
+                     AGLATAALRRLTPLGAGPGPVRRALAAAGVHRPVTVLREEDPSAADRLAGLCRAAGRPV
+                     RVLPVTPELTETAAKLAAGLPEERGEGASVVAVTAAGRNQADLTATVSVLPGDAVLVAV
+                     VQA"
+                     /protein_id="KDU89999.1"
+     gene            complement(16198..17196)
+                     /locus_tag="DV36_22270"
+     CDS             complement(16198..17196)
+                     /locus_tag="DV36_22270"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229152.1"
+                     /codon_start=1
+                     /product="glycosyl transferase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /sec_met="Type: cf_saccharide"
+                     /sec_met="Domains detected: Glycos_transf_1 (E-value:
+                     2.2e-36, bitscore: 118.5, seeds: 63)"
+                     /sec_met="Kind: biosynthetic"
+                     /translation="MAGMVARGEEYGWVSAVAGSGGFRADALAAAGTPTFPVPLARRSK
+                     AGVLKAAWATRRAIARFRPDVVLAHNVGASLVARLALAPGRRPVTVFHGVAEADYAAAA
+                     RILRRTSGRVVAVSAATADRLAASGLERPAVIRNAVFPRPPVFGRAEIRASLGVPERTP
+                     VALCLARLEPQKRHDVLLDAWAAVGGDAVLWLAGDGSLRPELERRAQELGRRVEFLGTR
+                     PDVPDLLAAADVTVLTSDWEGLPLAVLESMAAGRPVVATDVGGIAGVLAGGGGIVVPPA
+                     DPAATAAALTTLLFDPAARETAARAGIRAVERDYDPHTLMKSYDELLRGAR"
+                     /protein_id="KDU90000.1"
+     PFAM_domain     complement(16246..16491)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22270"
+                     /description="Glycosyl transferases group 1"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.60E-08"
+                     /domain="Glyco_trans_1_2"
+                     /asDomain_id="fullhmmer_DV36_22270_0005"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_1_2. Score: 32.7.
+                     E-value: 6.6e-08. Domain range: 2..83."
+                     /score="32.7"
+                     /aSTool="fullhmmer"
+                     /translation="VLTSDWEGLPLAVLESMAAGRPVVATDVGGIAGVLAGGGGIVVPP
+                     ADPAATAAALTTLLFDPAARETAARAGIRAVERDYDP"
+                     /label="DV36_22270"
+     PFAM_domain     complement(16276..16749)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22270"
+                     /description="Glycosyl transferases group 1"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.80E-34"
+                     /domain="Glycos_transf_1"
+                     /asDomain_id="fullhmmer_DV36_22270_0001"
+                     /note="Pfam-A.hmm-Hit: Glycos_transf_1. Score: 118.6.
+                     E-value: 1.8e-34. Domain range: 2..169."
+                     /note="ClusterFinder probability: 0.583128809933"
+                     /db_xref="PFAM: PF00534"
+                     /score="118.6"
+                     /aSTool="fullhmmer"
+                     /translation="AEIRASLGVPERTPVALCLARLEPQKRHDVLLDAWAAVGGDAVLW
+                     LAGDGSLRPELERRAQELGRRVEFLGTRPDVPDLLAAADVTVLTSDWEGLPLAVLESMA
+                     AGRPVVATDVGGIAGVLAGGGGIVVPPADPAATAAALTTLLFDPAARETAARAG"
+                     /label="DV36_22270"
+     PFAM_domain     complement(16309..16701)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22270"
+                     /description="Glycosyl transferases group 1"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.00E-21"
+                     /domain="Glyco_trans_1_4"
+                     /asDomain_id="fullhmmer_DV36_22270_0002"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_1_4. Score: 75.2.
+                     E-value: 5e-21. Domain range: 5..135."
+                     /score="75.2"
+                     /aSTool="fullhmmer"
+                     /translation="LCLARLEPQKRHDVLLDAWAAVGGDAVLWLAGDGSLRPELERRAQ
+                     ELGRRVEFLGTRPDVPDLLAAADVTVLTSDWEGLPLAVLESMAAGRPVVATDVGGIAGV
+                     LAGGGGIVVPPADPAATAAALTTLLFD"
+                     /label="DV36_22270"
+     PFAM_domain     complement(16777..17085)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22270"
+                     /description="Glycosyltransferase Family 4"
+                     /database="Pfam-A.hmm"
+                     /evalue="8.20E-09"
+                     /domain="Glyco_transf_4"
+                     /asDomain_id="fullhmmer_DV36_22270_0004"
+                     /note="Pfam-A.hmm-Hit: Glyco_transf_4. Score: 35.4.
+                     E-value: 8.2e-09. Domain range: 54..171."
+                     /score="35.4"
+                     /aSTool="fullhmmer"
+                     /translation="VPLARRSKAGVLKAAWATRRAIARFRPDVVLAHNVGASLVARLAL
+                     APGRRPVTVFHGVAEADYAAAARILRRTSGRVVAVSAATADRLAASGLERPAVIRNAV"
+                     /label="DV36_22270"
+     PFAM_domain     complement(16783..17190)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22270"
+                     /description="Glycosyl transferase 4-like domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.70E-11"
+                     /domain="Glyco_trans_4_4"
+                     /asDomain_id="fullhmmer_DV36_22270_0003"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_4_4. Score: 43.8.
+                     E-value: 2.7e-11. Domain range: 12..159."
+                     /score="43.8"
+                     /aSTool="fullhmmer"
+                     /translation="GMVARGEEYGWVSAVAGSGGFRADALAAAGTPTFPVPLARRSKAG
+                     VLKAAWATRRAIARFRPDVVLAHNVGASLVARLALAPGRRPVTVFHGVAEADYAAAARI
+                     LRRTSGRVVAVSAATADRLAASGLERPAVIRN"
+                     /label="DV36_22270"
+     PFAM_domain     complement(16924..17142)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22270"
+                     /description="Glycosyl transferase 4-like"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.20E-04"
+                     /domain="Glyco_trans_4_2"
+                     /asDomain_id="fullhmmer_DV36_22270_0006"
+                     /note="Pfam-A.hmm-Hit: Glyco_trans_4_2. Score: 19.6.
+                     E-value: 0.00062. Domain range: 30..104."
+                     /score="19.6"
+                     /aSTool="fullhmmer"
+                     /translation="GSGGFRADALAAAGTPTFPVPLARRSKAGVLKAAWATRRAIARFR
+                     PDVVLAHNVGASLVARLALAPGRRPVTV"
+                     /label="DV36_22270"
+     gene            complement(17225..18460)
+                     /locus_tag="DV36_22275"
+     CDS             complement(17225..18460)
+                     /locus_tag="DV36_22275"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_013229151.1"
+                     /codon_start=1
+                     /product="polymerase"
+                     /transl_table=11
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /translation="MSLVTVVRPSARETREVALLRVLACATVGLAPVEGYLTAVQSQLG
+                     KVAPALLTAVWLAVRIRHRQLPRPTPLHAVLALLAVVLVATASRHAAGPFTAEYTVRWL
+                     PFLVVTAVLADVASREVPIRWLLLAAAAGATAAGAGALFSLVAQGEARASGPQPDPNDL
+                     AYFLVAAVPLLAALHRRGRGAVLTAAGIVLVAGATATFSRGGALGLTAAVGWLLLRRVL
+                     PWRVLAAAAVAIAGLGLGALLFAGPQLDRALQEKSFIAASNVDTRELRWQAAARMLTAQ
+                     PVLGVGPGGFREHYAAESHNAEVDEQTPVAHDMYLEVAAELGLPGFALFAGVVGTAAVA
+                     SERTVRRAGPGARRTEAVAIQAALLAVLVTSTFLSEQYYLPFWSLAALAVATEARVREG
+                     EGSADAGAARDQ"
+                     /protein_id="KDU90001.1"
+     PFAM_domain     complement(17462..17899)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22275"
+                     /description="O-antigen ligase like membrane protein"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.40E-18"
+                     /domain="O-antigen_lig"
+                     /asDomain_id="fullhmmer_DV36_22275_0001"
+                     /note="Pfam-A.hmm-Hit: O-antigen_lig. Score: 67.2. E-value:
+                     1.4e-18. Domain range: 5..139."
+                     /score="67.2"
+                     /aSTool="fullhmmer"
+                     /translation="AAGIVLVAGATATFSRGGALGLTAAVGWLLLRRVLPWRVLAAAAV
+                     AIAGLGLGALLFAGPQLDRALQEKSFIAASNVDTRELRWQAAARMLTAQPVLGVGPGGF
+                     REHYAAESHNAEVDEQTPVAHDMYLEVAAELGLPGFALFAGV"
+                     /label="DV36_22275"
+     PFAM_domain     complement(17471..17887)
+                     /detection="hmmscan"
+                     /locus_tag="DV36_22275"
+                     /description="O-Antigen ligase"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.80E-14"
+                     /domain="Wzy_C"
+                     /asDomain_id="fullhmmer_DV36_22275_0002"
+                     /note="Pfam-A.hmm-Hit: Wzy_C. Score: 53.2. E-value:
+                     2.8e-14. Domain range: 4..162."
+                     /note="ClusterFinder probability: 0.322027968501"
+                     /db_xref="PFAM: PF04932"
+                     /score="53.2"
+                     /aSTool="fullhmmer"
+                     /translation="VLVAGATATFSRGGALGLTAAVGWLLLRRVLPWRVLAAAAVAIAG
+                     LGLGALLFAGPQLDRALQEKSFIAASNVDTRELRWQAAARMLTAQPVLGVGPGGFREHY
+                     AAESHNAEVDEQTPVAHDMYLEVAAELGLPGFALF"
+                     /label="DV36_22275"
+ORIGIN
+        1 atgaaactcg cagtctccct cgtggtgttc gcgaccgcgg tgaccgtcgc cggcgcgccg
+       61 gtggccgccg gcagcccggc ggccgggaag acctactacg tcgccccggc gggcagtgac
+      121 agcgcccccg ggacgcaggc cgcgccctgg gcttcggtcg cgcacgccca ggcgatcgcg
+      181 caggccggcg acacggtgta cctccggggt ggcacctacg cctactcccg ggcgaacaag
+      241 gcctgcgcga gccagaccga ccgggtggac gcgatcacgc tggacaagag cggcagttcc
+      301 ggcaacccga tccgctactg ggcctatccc ggcgaaacac ccgtcttcga cttctcccgg
+      361 gtcggcgacg actgccggat caagggtttc gacgtcaccg ggaacttcat ccacctcaag
+      421 gggctggaag tcaagggcgt gccccagaac aacaacctca accacgagtc gtgggggatc
+      481 tgggtctccg ggagcgacaa cacgttcgaa ctgctgaacc tgcacaacaa catggggccg
+      541 gggttgttca tccaggacgg tggcggcaac ctcgtcctga attccgattc ccacgacaac
+      601 tacgacccgc gcacgtcgaa cggcgccggg gaaagcgccg acgggttcgg cgcgcacatc
+      661 tccgccggcc acccgggcaa cgtcttccgc ggctgccgcg cgtggtggaa ctccgacgac
+      721 gggttcgacc tgatcaacgc gttctcgccg gtgaccatcg agaactcgtg ggcgtggcgc
+      781 aacggctacc tgccggagac gaccacgtcg tccggcaacg gcaacggctt caagatgggc
+      841 ggctacggcg gcaagtacgt cgccaacggc gtcaagcaca ccgtccgcac ttcggtggcg
+      901 ttcaacaaca aggccgcggg gttctacgcc aaccaccaca cgctggccaa cgactacttc
+      961 aacaacacga gttacaacaa ccaccccgac tacaacatgc tcggcatcac ctcgagcagt
+     1021 gccgccaccg ggctgggcaa cctccgcaac aacgtcgcct acgggggaac gctgctgtcc
+     1081 aacatgtccg gcacgagcgc cagggccaac tcctggaacg ggggcggcac gctgtccgac
+     1141 gcgcagttcc ggagcgtgtc gacgtccggc tgggacgcgc ggcgccaggc cgacggcagc
+     1201 ctgccggtgc tgcccaacct ccgcctggcg gcgggcagct ggctgatcga caagggcacc
+     1261 gacgtcggcc tgccttatca cggcagcgcc cctgacctcg gcgccttcga gtcctgaatg
+     1321 gacgaatcgg cggtgaccgc gcacgggtca ccgccgatcc gtccggcgcc ggcccggggg
+     1381 ttcgccgccc ggccgagcgg gtaaccggct gcacgacgcg gccgccggca ggacgggaga
+     1441 cgaccatggc catcaggctg ggcagcacgg tgatcaactg caccgacctg gagaccatga
+     1501 cccgcttctg gtgcgcggca ctcggcctcg agccggcgtc cgaagccgac gacttccggc
+     1561 tgctgcgcgg cccgcacgtc aacctgtcgc tgcaacgctc cccggtgtcc gcgcgggacc
+     1621 agatgcacct cgacctctac acggacgacc aggagcacga ggtcgaccgg ctcatcggct
+     1681 tgggcgcgcg gttcgtgcgc cacgtcgacg acgacccggc cgacgactgg gtcatcctcg
+     1741 ccgacccgga ggagaacctg ttctgcgtct gcgcgaaacc ggcggacgag gtccgcgacc
+     1801 cgggagccgg ttccgccgcg tgatctcgat gcgtgctgaa gccgaccgag cgggaaagcc
+     1861 ggccgtcctc accggcccgc gatcacgtct gccgggggta ccggaggcgt ggcgaattcg
+     1921 tcgcacgcgc ccaggagttc ctggccgagg gcctggcggc cggcgagcgg tgcgctacgt
+     1981 cgccccgggg gacgaggccg cgctggccgg gcagctgcgg gcggacgagc gctgcgacga
+     2041 gggcctggaa cgcggggccg tccaggtcgc ttcggtcgag gcgacctacc gcacgggagc
+     2101 cgtcgtcgac cccgccggcc aggtcgagca ctacgccgcg gcgacgtccg aggcgctggc
+     2161 ggccgggttc accggattgc gggtcgcggc cgacgcgacg tcgctggtgc gcacgccggc
+     2221 ccaagtggac gccttcgccc gctacgagca cctggtggac cactacctgg ccggtcatcc
+     2281 gatgtcggcg atgtgcggcc aagacgtggc cgagctcggc cgcgaagccg tcgcgcagct
+     2341 cgcgtgcatg cacccggccg cccacgacgg cgcgaccccg ttccacctgc acgcgcacgc
+     2401 gcgcgacggc agcgccgcgg cgctcgacgg ggagctggac ctggaggccc gccggctctg
+     2461 gccgccggtg ctggagcgcg ccggcctgcg gcccgagggc ggcacgatcg ccatcgacgc
+     2521 cgccggcctg gagttcgtcg accaccgcag cctggtcgcg ctggccggct acgccgagcg
+     2581 gcacggtggt cctgcgcacg cgattgtcca cgcccgcccg gctcgccgag catcgcgaac
+     2641 cggccgcccg agccccagtg cgttcgagct cggcggcggc gtccagccgc tcaggcgcag
+     2701 cggggctgtc ccgggcagct gcgcagcagc ttgaccaccg gcgcggccgg aatcgtcccg
+     2761 tccgcccccg gcatccccag cggccacgcg atggccagtg ccaccgccga agagttgttg
+     2821 ccgtagttcg tctccagcag cgtccggtcg gcgttgaccg tgttcaccag gtcgtacgtg
+     2881 cccgtcggga cgtgggtgat gtccagccac tggaagtcca ccgggtactt gtagtcgtcg
+     2941 cccgcaccga ccgaaatccc ctcgaccacc tcgagcgccg tgggttcgtg gtggcggcac
+     3001 atgttgccgc gcagcgtatc ggcgagagag gcgtcggcac ccgagccgcc cggcacgttc
+     3061 ttcaggcggc cgacgtcgtg gaccgggaac cggtcgccga ggcagaagcc gttcttgcgg
+     3121 tcggtgacca ccgtctcgcc ctggggggaa accagcgcga agcgctcgaa gttcatcagg
+     3181 tgccagtgct ggtgggcggg agccggctcg tagtacgtga aggccccggt ggcgcgttgc
+     3241 gccgccgcgt agctgtccgg gatcgagccg tccgcgccgt tgcgcagcgc ctgccggacc
+     3301 gtcatggtct gctggttcgt gctgtcgcgg cggccgtaca gcagcagcgg cccgtcgccg
+     3361 acgttctcct ccgcgctggt gaaccgcagc cggacggcct tcgccaccga cggcgcgacg
+     3421 cagcggccgt tgggggcggc cggatcgacc accgggcaga cgtcccaggc ggtgcacagc
+     3481 gggagttcac cggaactgcc gccggcacac cccggcacgg cctggcggag gtcggggagc
+     3541 aggaggtccg gcgccgcgtc ggcacgggga gcggaggcgg aaacggtcgc cgaaagggcc
+     3601 acgagcgcca gtaccgcgaa tttcttcagc aagagcgggc cgtcctgtcc ggtattccga
+     3661 tcggccccat cctagggcgt ccgcaattcc ccggtgcgac accgcgtcgt cacacgatcg
+     3721 actgagtcgc ctccggtttc gcggttccgg tgagtagcgt gcggcgaact caccgcccga
+     3781 aaggaccgca ccgcatgtcg acgaccaccg cagatttccg tgccgacacc gggagctccc
+     3841 cggcggtgcg gcccgccgga accggcggga tcacgctggt ctgcggcaca cggccggaac
+     3901 tgatcaagct cgcgccactg atgcgggtgt tcggcgacga gtgcgccgtc gtctacacgg
+     3961 gacagcacta cgaccgctcg ctctacgcgc ggatccgcgc ggacctgccg ccgtcggacc
+     4021 ggttccacga actcggcgtg ggcgccggcc gccgcggcgg ccagctcggc cggacgatca
+     4081 gcgcggtcga cgaggtactg gcggaccggc ccggccgggc ggtgctcgtc cagggcgaca
+     4141 cgacgtccgc gctcgccggc gcgctggcgg ccaacgcgca cgatctgccg ctggtgcacg
+     4201 tcgaagccgg gctgcgcagc cacgaccggg cgatgcccga ggagcacaac cgcgtgctga
+     4261 tcgaccacct cgccgacctg tgctgcgcgc cgaccgagct caaccgcgcc cacctgctgg
+     4321 cggaaaacgt gcccgccgaa cggatcgccg tcaccggcaa caccgtcgtc gaagcgctgc
+     4381 aagccgcgct cccggccgcc gaggaccgac gggcggtgct ggccgcccgc gggctggagc
+     4441 gggatcggtt cgtgctggcc acgatccacc gcccggagaa cgtcgacgac gccggacggc
+     4501 tggcggtgat cctgcgcgaa ctgggccgcc tgcagctgcc ggtggtgttc ccgctgcacc
+     4561 cccgcacggc caagagcgtc gaggggttcg gcctgcggca cctgctcgag ccgctcgtcg
+     4621 agctggaacc ccaggcctac ccggcgttcc tcgcgctcgc cgccgaggcg gcggtgatcg
+     4681 tgtcggattc cgggggcatc caggaggaag cgagtgtcct caagcgaccg gtggtcgtgg
+     4741 tccggcgcag taccgagcgc cccgagatcg ccggaacgtt cggcacgcga gtgctcccgg
+     4801 ggccgtcgat cggcacggag gtggcgcggt ggctcgacga cgtggccggc caccgcgagc
+     4861 gcctccggca cctcccgtca ccgtacggcg acgggtccgc ctccgcccgg atcgtgacgg
+     4921 cgctggggac gttgctcgat cagcgggccg gttcggtcac cgcgggctga tccgccagcg
+     4981 ccgcgacgac gtcgttcgcc agggcgacgc tcgagttcca gctcgtcacg tccgggtaga
+     5041 cgtgggcggt ggtggccagc aggaggccgg tgccgtccac ggtcaccggc ggccgcgcgg
+     5101 cccggtaccc cagcgggtac accggttcca cgaacggcgc cttgaacacc cgcacctgct
+     5161 cgatgtcgtc ggcaccgagc tccgggtaca ggccgcgcag ctgcgccgac cagcgggccg
+     5221 cgatcgcggt gtcgtcgtcg aggtacagct gcgagtcgcg gtcggtgtag tgcatcacgt
+     5281 acacgaggtg gcggccgtcc cgggagccgg cgagcgcgga catcgcgacg accccgtcga
+     5341 actccgtgcc cgagtgcagc accggcgtcc agtagtgctc ggtgaccggc cgccggagga
+     5401 agaacacgcc ggtgaccacg ccctggtagg gcaggtcggt cgccggcagc cgggcggcga
+     5461 gcgcgtcgtc ggcgatgcgc cgcagcaggg gcagcggcac ggtcgagatc acgtggtcgg
+     5521 cgtcgaggac ctcgccgccg gtcagggtga ggaccgagcg gccgccggtg ctgtgcagcc
+     5581 gccggaccgg ggccgacgtc cgcaccaccc cgccggcccc ctcgatcgac gcccgcagcg
+     5641 cgtcgatgat ggtcttgtag ccgccgtccg ggtagccgcg ggtggcgacg ttgcgttcgc
+     5701 ggccgagccg ctgccacagg tacagcgcgg ggacgtcccc gaaggacggc ccgaacttcg
+     5761 agccgaacat cggcgcgaag agccgctccc agacgacgtc gccgtagagc ccgcgcagcc
+     5821 agtcctcggt gcggaggttg tccaggtcgc ggccccggcc caaccggcgc agcagcagcg
+     5881 aaaccacgcc gaagcgcacg cggtcgtgca ggcgcagcgg ggagaagcgc agcaggtcga
+     5941 gcggggagtt gaacgggtgg cggcggccgt cgacgaccat gcccatcgtc gtttcgcgcc
+     6001 actgcaccgc gtcccgcaga cccagctcgc cgagcagcgc cagcaggctg gcgtccgacg
+     6061 gcatgatgca gtggtagaag cgctcggccc actggtcgcc gtcggcgaag aaggtgccga
+     6121 ggccgccgag ctggtcgctg ccttccagca gggtcacgcg ggtgccgcgg cggacgaggc
+     6181 ggtgggcggc ggcgaggccg cagatgccgc cgccgatcac ggcgacgtgc gcggagtcgg
+     6241 gaggggtcac cgggtcacag cttccggtag ggcgccgggc tcagccggtc gcgcgcgagc
+     6301 agtttcaggt attggacgag ggtccgccgc agcttcagct tgctgggtcc ctgcttgcgg
+     6361 tcgtaccgca gggccagcgg gacctcggtg atcaccgggc ggcagtggcg cagcttgagc
+     6421 agcagctcca ccatgcaggc gaagccctgc tcttcgatga gccgttcgcc ccagtgcgcg
+     6481 gaggcgcggg ccagcagcga cgcccggtag gcgcggtagc cgctggtgaa gtcccggacg
+     6541 ccgtcgacgt cgagggcgcg gtggaacagc tgcgccgcgc cgcgggagag cagccgccgc
+     6601 ccgaacgggg cggtccggtc gtcgccgccc gggacgaacc gggagcagat ggcgacgtcc
+     6661 gcgccggcgg tgatctccgc ctgcagcgcg cggatcagcg ccgggtcgtg ggtgtcgtcg
+     6721 gcgtccatca cgacgacgac gtcgtcggga ccggcttcct ccagcgccgc ccgcagcccc
+     6781 gactgcaccg cgcggccgag cccgaggttc accaggtgcc gcacgacgcg gacgtcgagc
+     6841 ccgccgtagc ccgactcggc cacggcgacc gtggcgtcgg cggaaccgtc gtcgacgacc
+     6901 cagacggtga cctgctcggt gcgggccacg tcggcgagcc ggcgcagcag cggcggcagg
+     6961 gacgcttctt cgttgaacgc gggcagcacg acgtgcgccc gtccgccggt ccgtcccccg
+     7021 gtgggatccg gaccggtgcg gtccggttcg gacagtgtgg ccagggtggt ttcttcgagc
+     7081 gccacggttc ccctcgtctg gttgtcctcg ttttggcccg tcacccgtcc ggactcgggt
+     7141 ttggtgcggc cgtccagtcc tattcggcta tgttgtgtgg tttctttagt ggccccggaa
+     7201 gtcccccgga aggatgcgcg tcatcagaac tacttgctgt ttcctgaaat caccggatcg
+     7261 ggttcgctcg acgccccgat cgagtgcatt tctgggcttt caaggaaaaa atcacccgat
+     7321 cgtgccggtg ttgcctcgaa tggctgagtc gtgaagaaag cgagaatgga atcctcatgt
+     7381 caagtagagg tcgagaccgg tgactgaact cagggacacg gtcgtcaccg aagcggtgcc
+     7441 ggcccagcgg cgggtccggc cgggcgaccg gccgcgcgac gccgtccgcg cccgcccgct
+     7501 gctcgccagg gtcaacgccg tggccgtgct gctcgtcgcc gtcgacggcg ccgcctggct
+     7561 ggccgcggtg ctgcggaccg ggcccgttcc ggcgtgcgcg gcggtgaccg ccgcggccct
+     7621 cgcgggggcc cgggtggccg gccgcgtcca ccgccgccgc ctctggctct cctggctgca
+     7681 ggacctgccg cgctcggtca ccgccaccgc gctggcgttc gcgctcgtca ccggcttcgg
+     7741 gctggtggcg gggatggacg gcgacgacac ggcgcggatg caggaagtgg tcctctgctt
+     7801 cgccgtgctc agcgaagcgg cccggccggc ggtcttcgcg ttcggccgct ggggccggcg
+     7861 gcggctgcgg cgctgcgacc gggccgtcgt ggtggggtcc ggccggatcg gcggcgaact
+     7921 ggtccgcacc atgctggagc accccgaatt cgggctgctg ccggtcggcg tcgcggcgtc
+     7981 cggcccggag ccggtgccgc ccggcctgcc ggtcgagcgg atcgacggcg acctcaccgg
+     8041 ggccatcgcc cggctgcgcg cgggcacggt gatcctcgcc cccgccgacg actcgggcgg
+     8101 cgcgatcgtc gacgccgcca tcaccgccca ccgcctcggg tgcgtcaccc tggtgctgcc
+     8161 gcacctgttc gagctctgcc cggacgggcc gggcgtcgac cggctccgca gctacccgct
+     8221 ggtgtggctg ggcggcgcgc cgacccggcg gccgagctgg tgggtcaagc gagccgtcga
+     8281 aacgacgctg gccgcggccg cgctcgtcgt cctcgcgccg gtcatcgcgg tctgcgcgct
+     8341 cgccgtcgcg gtggagagcg ggttcccggt cttcttccgg caggtgcgcg tcgggatgga
+     8401 cggcggcacg ttcgtgctct acaagctgcg cagcgtgcgg caggccgccg tcgacgattc
+     8461 gcagacgcgc tggtcggtcg tcggcgatca ccgggtcggc ccggtcggcc gcttcctgcg
+     8521 ccggtcctct ttggacgaac tgccgcagct gtggaacgtc gtgcgcgggg acatgtcact
+     8581 ggtcggcccg cggccggagc ggccggtgtt cgtgcacgag ttctccgccg tccacgacct
+     8641 gtactgggcc cggcaccggg tgccgaccgg gctgaccggc ctggcgcagg tgcacggcct
+     8701 gcgcggcgac acctcgatcg cggaccgggc gcgctacgac aactactaca tcgcgaactg
+     8761 gtcgttgtgg ctcgacgtca agatcatcat cctcacggtg ggagaactgc tgtgccgaag
+     8821 gcaacgctga tgcgccacca cccggtggcg tgctggacgg ccgcgttcgt gctgctggcc
+     8881 ggctgcctcg ccggctgcgt cgccagttcg gcgcaggaga tcgcggtccc gccgccgaaa
+     8941 ccgctcgcgc cctgcgcgtg gtggtacggg atcggtcagc cgccgacggc gcaggagatc
+     9001 gagctggcgg ccaagcgcta ccaggtcgtg gtgctcaacg ccgaccaggg cgcggccatg
+     9061 cgccgcctcc accagctcaa ctcgcgggtg aaggtgctgg tgtacaagga cctctcgagc
+     9121 acgcgcaact acccgggcgc ggtcgacggc ggccaggacg cggtcttcct gccgagcggg
+     9181 atcggctacg tcgccgcgca ggaacaccac ccggagtggt tcgcccagga cgtcaacggg
+     9241 cggcggatcg agtggcaggg ctacccgcgg cactggcaga tgacggtgtg gaacccggac
+     9301 taccagcagg cctggaccga cgccgtcgtg gcggaggtga cccgcgaggg ctgggacggc
+     9361 gtgctcgcgg acaacgactt caactcgctg agtcattatt cgtccgcggt gctcgcgggc
+     9421 acggcgaacg tcgcggagac cgaccgcaag ctccgcgacg gcctggacgc gttcctgtcc
+     9481 aaggcaggcg acgccctcac gaacgcgcag aagctcatgg tgcccaacgt gtccgagacg
+     9541 cacctggtgc cgggccgctg gaccgcgcac tcccgcttcg gcggcgcgat ggaggagaac
+     9601 ttcgggttcc gcgagaacgg cggcaccggt ggcctgctga ccttccgcgg caacgagttc
+     9661 caggagctgc gcgcgcaggc cgccctcggt gagtccctgc tgctgctggt cacgcggacg
+     9721 cacaacgcgc gcgaggagcg ttccggctac gcgagcgcgg ccctgctcgc cggcccccgc
+     9781 acgtgctgga cccgcgcgac caccgacgac taccgcgacc cggagtggtc ggcgttgcag
+     9841 gattccgggc tgggtgaggc gatcgacgcg gcgagccggc tgcccaacgg cgtctggacc
+     9901 cgcacgtttt cccacggctg ggtcgcggtc aacacgacgg cgtccaccca gacggtggag
+     9961 cccccgccgg gcttggtcaa gcccggcgcc cccgcaccga ccccaacccc caccccaacc
+    10021 cccacgcgaa cctccacccc cacctcagcg ccgacctcga cccgcacctc ggcacccacc
+    10081 tcaaccccgg ctccgccctc gctcacgttg gaagccgcgg acgcgatcat cctggtcgat
+    10141 ccgcagcagc tcgtgaaacg cggcacctgg cgaatcaccc gcgacgagtt ccgaatcggc
+    10201 cgcctctggg cccgctgact cgtgtcgtcc cgccaatcac gcgagatgac ctcccaatca
+    10261 cgctagatgc ctccccgatc acgcgagttc cccttggggt cacgcggagc ccggtgatca
+    10321 gagggacatc acccgtgatc ggagggtcgt cacccgtgat tggcgggtcg acacgacctg
+    10381 gtcagctggt cgtacaggtc caggtgacgg cgggcgcagg cctccgggcg gtagcgggcg
+    10441 tgggcgcgtt cggcgaggag ccggcccagg cggcccgggt cgggctccgc gaacagggcc
+    10501 cgtaggcggt cggcgagggc cgggacgtcg cccggtgggg ccaggaacgc gggggtgccc
+    10561 gggacgtcga gcatggcggg gacgccgccg gtggccgtgg ccaggaccgg cttgcccgcg
+    10621 gccatcgctt cggccaccac cagcggctgt tgctccattg tggacggcag gaccagcgcg
+    10681 tcggccccgg cgagcagggc ggggacgtcc ggccggaagc cgaggaacgt cacgcgtccc
+    10741 gccagcggcg gctgccgcgc ggcccgttcc gccgccgcgc gttccgggcc gtcgccgatc
+    10801 accgtcagcc gggcgtccgg tggcagcacg cccggcaggg acaacgcggc cagcaggtcg
+    10861 agcgccccct tgcgctccac cagaagcccg gcgaagacga ggtgccgcac cggcccctgc
+    10921 ggtggagacg gcgaagcagc ggagacgcag ttgtcgacgt gcaccagccg cccggcgggc
+    10981 acccgcagcc gacggcgcag gaacgccccc atcgcctcgg ccggcacgat cgtccggtcc
+    11041 aggacgcggg cgacgacggc gtccgcggcc agcaccgtcc gcgtgtacgc cgacggcccg
+    11101 gccgccccgc gcgcgccccg gaaccacggc tccgcgacgt cgtcgggcac gccgtggtag
+    11161 gtctggacca gagccggccg ggcaccgcgg gcgaaccgca gccccgcgat caccagcccc
+    11221 gcgcgccggt cctgcgcgtg cactacgtcg ggccgccacg cccgcagcgc cgcccgtgcc
+    11281 cggcccgccg ccgcgaggtc ttccttgccg gtcaccgcga gctcctcgtg gtgaccgtcg
+    11341 agcagcgcgg ctccccgcgc cggcacggga ccgaagacgc ggacgtcgtg gccgtcgtcg
+    11401 gccagcgtcg cggccagccg gacggtgacg tccaccggac cgccgcggtc ctgggtgagc
+    11461 agataggcga tgcgggtcac gagaggcgct ccgacggggt gagtttgtcg acgagggcgg
+    11521 cgatctggtc ggtcatccgc ccccggtcga aggacagttc gacgcggcgg cggccgcgtt
+    11581 cgccttcgcg ccgggccagt ccggggtcgg cgaggcgcgc ggcgacggcg tcggcgagcc
+    11641 gtccgacgtc gccgggcggc agcaccgcgc ccgcgtccgc gacgctctgg cgcatcccgc
+    11701 cgacgtcgaa cgcgacgacc ggccgcgcgc acgccatcgc ttccagcggc accagcgcca
+    11761 tcccctcggc gcgcgagggc aggacgacga cgtccgcggc ggtgtaccag gccgccggct
+    11821 cgtcggtgtg ccccggccag cgcaccgacg cgtgccccgc caccgggtgc cgcgcgcgcc
+    11881 agaccgggcc catcggcccg tcgccggcga gaacgagctg cgcgtccggc agccgccgca
+    11941 gcaccgcggg ccacgccgac agcagctggt cctggccctt gagctcggcg agccggccga
+    12001 ggcagacggc gatcggcgcg tgttcgggca gcccgagccg ccgtcgcgcc gcgagccggt
+    12061 cgccggggac gaaccgggtg gtgtcgacgc cgttgcagac gacttccgcc tcggcggtca
+    12121 ccccggcggc ccggccggcg gccagttcgt cgtcgctcac gcagacgacg aggtcggtcc
+    12181 accgcgacgc gaggcgttcc cacgcggcgg acgcgcggcg caggggacca ccggccgtct
+    12241 cgaaggacca caggtgcggc tggaacaccg tggggcggcc gccgcgcacg gccagccgtc
+    12301 cggcgaggcc ggccttggag ctgtggaggt ggacgacgtc ggggtcgagg tcgtccagga
+    12361 gccgccgcag ccgcagcgcc tcggcgaccg agccgggacc gggtgcgcgg cgcgcggccc
+    12421 agccacggac gtcgatgccg agttcgcggg cgcgtccggc gagccagccg gacggcgggc
+    12481 aggcgatcgt gacggaccag ccgcggtccc gttgcgccac ggcgaggtcc agcacgacca
+    12541 cggcgacacc cgcggtcacc ggctgggaga cgtggacgag cttcaccgca ggcctccccg
+    12601 gcgcagttcg gcgagcgcac tccgctgcag caccagcgtc gccccggcgt acccggcgac
+    12661 gaggaccgag gcttcggcca ccgcgcccgg cagcgagtcc ccgaaccacc gtcccagtac
+    12721 caccgccggc cccgcgcccg ccacgcacgc gagcgcgacg cgcgcgaaca tcccgcccag
+    12781 ctccgccacc gaaggcgcca caccgagccc cgccagcacc cgccacgccg ccggcaccac
+    12841 cagccacgcc gccccgcact gcaccagcgc gaccgccccg atgccggcgc gggtcagcac
+    12901 cgtcagcccc accgcgagca gcaccaggtg cgtcgtttcg agcgccagat aacgccggac
+    12961 gtgcccggtc gccttcaccg cctggtacca gatctgcagc aggcagatcc ccaggccgta
+    13021 gccggacagc agcaccagcg ggccggccgc gcccgcccac cgctcgccca gcagcacgac
+    13081 gtgaccggcg aggaccgcga gcgccaggta caacccgccg gtcaccacga gcaccgcgcg
+    13141 ggtgaaccgg gtgaccgccc cgccgagcgg cgtcccctcg cgccgcagcc gcgtgaacac
+    13201 cgggaaggcg accgcgccga gcacgaccgc caccatgatg tacggcaccc aggcgagccg
+    13261 gtacgccagc gagtagacgc cgaccgcctc cggcccgagt ccgtgcccga ccgcgaagta
+    13321 gtcgaggttg accagcagcg cgccgacgac cgcggccggc cccaccacgg ccacccagcc
+    13381 cagcacttcg cgcgccgccg cggggtccca gcacggccgg accccgccgc gggccagcgc
+    13441 gccgagcagc ggctgcgtca ccgcggtggc cagcaggccg agcaccagtg ccgacggccc
+    13501 ggcaccgcac gcggcgagca ccaccgtcag caccgcgccc agcaccgcgc tcccgccgtc
+    13561 gggcagcagc cggcgccgga agtcgagttc ccggtgcatc aggcccatct gcaccccgcc
+    13621 cgccgccgag aacggcaggc cgagcgcggc cagccggacc agcccggcgg cgtccggcgt
+    13681 gccgagcagc gccgtgagcg ggccggccgc ggccaccagc gcgccggcca ggacgatccc
+    13741 ggcgccgacg ctcagcgtca ggacggtgcc cgccgtccgg cgcggatcgc gctcggtgcg
+    13801 cccgatgacg tcgtagaccc cgatcgactg gacgacctgg ccgaggttca ccaacgccac
+    13861 cgcgagcgcc acggcgccga gctgcccctc ggtgagcagg gcggccagca ccagggtgac
+    13921 cagcatctgg ctgctcttgc tgacgaggtt gaccacgccc agccacagcg agccgcggac
+    13981 cgcgcgggtc ccgagcgcgg ccgtcacgtc gcccgcaccc gcctcgcggc gaccacggcg
+    14041 aggccccacg cgacgaccac cgcgaccccg tccacggtga ccgcggcccg cgacccgagc
+    14101 gccgagccca ccagactgtc cactgtgtac aagtaggcga aggggacggc gagcgcgagg
+    14161 acggccaggc cggccgcacc ccagcccggc ccgccccggt ggcgccacca cagcgcggcc
+    14221 accgcggcca tcgcggggac ggcgatcagc acgtcaccgg gttggtgcac cacgcagacc
+    14281 accacggcga gcacggtcag cagatcggcg atgggaggct tcgcggcctg gacgagcagc
+    14341 gcgctcgtca ccagcacgcc ggccagcacc accagctcga ccccggaggg cacccagccg
+    14401 gtgacgcgga acagcaccgc ggcgacgtcg atgcgttgcg cggtaacgga atcgacggcg
+    14461 ccgtagtcgg taccgcgcgc gtgggtgagg ttcgcgacga cgacttcggc gaacggcccg
+    14521 atgccgccgc cccgcaccac gaggagcacg acgaccggca ggctggcggc cgcggcgatc
+    14581 gcggtgccga gcacggcgac ccgccgcgag ccccgggcga acagcaggac ggtcagcggg
+    14641 aagccgtact ggggcttcag ccaggcgagc gcgagggcgg cggccgccca tccgggccgg
+    14701 tcgcgccggg cgagcacggc accggccgcg ccgagggcga tcagcgggtt gacctggccg
+    14761 acgtagagct gcgccttccc gacctggctg gtcacgagca gcgcggcgac gacggcggtg
+    14821 gtgacggcga acggcaccgg aacgtaccgc cggacggcgt gggcggccac cgcggcgagc
+    14881 gcgacgagca gcagcagcga gaagagggtg aacgcgacgg cgccgacccg gtagccgggc
+    14941 agcgcgaacg gcgcgtgcag gaggaggtgg tagggctggt agaggttgaa gtcctggcgc
+    15001 accggccagt gcgcgaacat cgcggcgggg tcgtaggggt tgccgccggc gaggaattcg
+    15061 cggatggggt agtagagggc atcgcggaag tcctgcagcc gttcttctcc gagcacggcg
+    15121 ggggtgggga gcgggacttc ccacgcaggg gagatggcgt gccaggcgct cactcctccg
+    15181 gcgagggtcg cgaggaggag gacgagacgc tgcttcgggg atatgcggtc gccgcgggcg
+    15241 agaacggcag gtcgcgggtc ggcgtcttgc tgcgagacac caccgcgacc gagtcgccgg
+    15301 tggcgtccgg tggcggcggg ggcagcggcg gtgtcttgct gcggggtcat gcctgcacca
+    15361 ccgccaccag caccgcgtcc cccggcagca cactcaccgt cgccgtcagg tccgcctggt
+    15421 tgcgccccgc cgccgtcacg gccaccaccg aggcgccctc tccgcgctcc tccggcaacc
+    15481 ccgccgccag cttggccgcc gtctcggtca gctccggggt caccgggagc acccggaccg
+    15541 gccgcccggc cgcgcggcag agccccgcca gccggtccgc cgccgagggg tcctcctcgc
+    15601 gcaggaccgt caccgggcgg tgcacccccg ccgccgccag cgcccggcgg accgggcccg
+    15661 ggccggcgcc gagcggggtc agccggcgca gggccgccgt cgccaggccg gccgcgaccg
+    15721 cgccgaccag ggccagcccg cccaccagcg gcacgtccgg tgccaccgtg agcacctccg
+    15781 gccgcgcgtc cagtgtccgc agcttcccgg ccggcgcgag gaggtccgcg tcgatcatcg
+    15841 ccttggccag cgccatcgcc gtcgcgcccg cctgctccgg cgaggccgcg cgcaccgaca
+    15901 gccgcgccag gcccgatgcc gggaccagct cgaccgacac gtgccccgcg agctcgtcgg
+    15961 ggccgtaccc ggacaccggc gccgccgccg aaagcaccga cgggctgcgg gccagctcga
+    16021 ccagcgccgg caacgccagc gagacgacct cgccgtacgg cgcaccgtcc gccgcggccg
+    16081 gaccggcgag caggctcacc cggccctggt actccgcgcc gcgcgtcagg ccgacgatca
+    16141 gcacgagcgc ccccaccagc agcgccacgg cgacgctcga gaccacactg cggtacttca
+    16201 tcgggcacct cgaagcagtt cgtcgtagga cttcatgagc gtgtgcgggt cgtaatcgcg
+    16261 ttcgacggcc cggattcctg cccgagccgc ggtttcccgc gccgccgggt cgaacagcag
+    16321 cgtggtcagc gccgcggccg tcgcggccgg atccgccggc ggcacgacga tcccgccgcc
+    16381 gccggccagc accccggcga tcccgccgac gtccgtcgcg accaccggcc gtccggccgc
+    16441 catcgactcc agcaccgcca gcggcaggcc ttcccagtcg ctggtcagca ccgtgacgtc
+    16501 ggccgcggcg agcaggtccg gcacgtccgg gcgggtgccg aggaactcga cccggcggcc
+    16561 cagctcctgc gcgcgacgct ccagctccgg acgcaggctg ccgtcgccgg ccagccacag
+    16621 cacggcgtcg ccgccgaccg cggcccaggc gtccagcagc acgtcgtggc gtttctgcgg
+    16681 ttccagccgg gccaggcaga gcgcgaccgg cgtgcgttcc gggacgccga gggacgcgcg
+    16741 gatctccgcg cggccgaaca ccggcggccg ggggaacacc gcgttccgga tcaccgccgg
+    16801 acgctccagc cccgacgccg ccagccggtc cgcggtcgcg gcggagaccg cgacgacccg
+    16861 gccggacgtg cggcgcagga tccgcgccgc cgcggcgtaa tcggcctcgg cgacgccgtg
+    16921 gaagacggtg accggccgcc gcccgggggc gagcgcgagg cgggccacca ggctcgcgcc
+    16981 gacgttgtgg gccagcacga cgtcgggccg gaaccgcgcg atcgcgcgcc gggtggccca
+    17041 ggccgccttc agcacgcccg ccttgctgcg gcgggcgagc ggcacgggga acgtcggcgt
+    17101 gccggccgcg gccagcgcgt cggcgcggaa gcccccgctg ccggcgacgg cggacaccca
+    17161 gccgtactcc tcgccgcggg ccaccatgcc ggccacgagc gtctccgccc cgcccgcccc
+    17221 catctcactg atcacgtgca gcacccgcat cggcgcttcc ctctccttct cgaacccggg
+    17281 cttcggtcgc gacggcgagc gcggccagcg accagaacgg caggtagtac tgctcggaca
+    17341 ggaacgtcga agtcaccaga acggccagca gcgccgcctg gatcgcgacc gcctccgtcc
+    17401 gccgcgcgcc ggggccggcc cgccggaccg tccgctcgct cgccaccgcg gcggtgccga
+    17461 ccaccccggc gaacagcgcg aacccgggca ggccgagttc cgcggcgacc tcgaggtaca
+    17521 tgtcgtgcgc caccggggtc tgctcgtcga cctcggcgtt gtgcgactcg gcggcgtagt
+    17581 gctcgcggaa cccgccgggg ccgacgccga gcaccggctg ggcggtcagc atccgggccg
+    17641 ccgcctgcca gcgcagttcc cgagtgtcca cattggacgc cgcgatgaag ctcttctcct
+    17701 gcagggcccg gtccagctgc ggcccggcga acagcagcgc gcccagtccc agcccggcga
+    17761 tcgcgacggc cgcggcggcg agcacccgcc acggcagcac ccggcgcagc agcagccagc
+    17821 cgaccgcggc ggtcaggccg agcgcgccgc cgcgggagaa cgtcgccgtc gcgccggcca
+    17881 ccaggacgat gcccgcggcc gtcaggacgg cgccccggcc ccggcggtgc agcgccgcga
+    17941 gcaggggcac cgccgcgacg aggaagtagg ccaggtcgtt cggatccggc tgcggcccgc
+    18001 tcgcgcgcgc ttcgccctgg gcgaccaggc tgaagagggc acccgccccg gcggccgtcg
+    18061 cgcccgcggc cgccgcgagc agcagccacc ggatcggcac ctcccggctc gcgacgtccg
+    18121 cgagcaccgc ggtgaccacc aggaacggca gccagcgcac ggtgtactcc gcggtgaacg
+    18181 ggcccgccgc gtgccgggac gcggtcgcca ccagcacgac ggcgagcagc gcgagaacgg
+    18241 cgtgcagcgg ggtcggccgg ggcagctgcc ggtgccggat ccgcacggcg agccaaaccg
+    18301 cggtcagcag ggcgggcgcg accttgccga gctggctctg cacggccgtc agatagccct
+    18361 cgaccggcgc caggccgacg gtcgcgcacg cgaggacccg cagcagcgcc acttcccggg
+    18421 tttcgcgagc cgagggccgg acgaccgtga ccaggctcat
+//
