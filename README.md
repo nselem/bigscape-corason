@@ -1,7 +1,8 @@
 # BiG-SCAPE/CORASON pipeline
-
+![corason.png](https://github.com/nselem/EvoDivMet/blob/master/images/corason.png)  
+![bigscape.png](https://github.com/nselem/EvoDivMet/blob/master/images/bigscape.png)  
 https://github.com/nselem/corason/wiki  
-https://github.com/nselem/corason/
+https://github.com/nselem/corason/  
 https://git.wageningenur.nl/medema-group/BiG-SCAPE  
 https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home  
 ## Installation
