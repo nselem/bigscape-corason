@@ -30,4 +30,4 @@ chmod a+x ~/bin/run_corason
 `run_bigscape gbks salida`  
 
 ## Corason example  
-`run_corason -g gbks -q TauD -s spectinomycin`  
+`run_corason -g gbks -q TauD -s BGC0000715.1.cluster001.gbk`    
