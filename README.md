@@ -22,10 +22,7 @@
 
    Installation. BiG Scape example, CORASON example. [BiG-SCAPE CORASON examples](#big-scape-corason-examples)  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340617.svg)](https://doi.org/10.5281/zenodo.1340617)  
 
-`wget https://zenodo.org/record/1340617/files/gbks.tar.gz?download=1`    
-`https://zenodo.org/record/1340617/files/genomes.tar.gz?download=1`    
 
 ## Installation
 Following instructions cover Docker installation of both pipelines.    
@@ -46,12 +43,16 @@ Instrucctions to install BiG-SCAPE as conda environment can be consulted here.
 ----------------
 ## BiG-SCAPE CORASON examples  
 ### Download data and set your directory  
+
 `> mkdir bsc`  
 `> cd bsc`  
-`> wget https://github.com/nselem/bigscape-corason/tree/master/gbks.tar.gz`    
-`> wget https://github.com/nselem/bigscape-corason/tree/master/TauD.faa`    
-`> tar -zxvf .tar.gz`    
+`wget https://zenodo.org/record/1340617/files/gbks.tar.gz?download=1`    
+`wget https://zenodo.org/record/1340617/files/genomes.tar.gz?download=1`    
+`wget https://github.com/nselem/bigscape-corason/tree/master/TauD.faa`    
+`> tar -zxvf gbks.tar.gz?download=1.tar.gz`    
+`> tar -zxvf genomes.tar.gz?download=1`      
 `> ls`  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340617.svg)](https://doi.org/10.5281/zenodo.1340617)  
 
 ## BiG-SCAPE example  
 `run_bigscape gbks salida`  
