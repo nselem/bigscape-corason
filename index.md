@@ -21,5 +21,13 @@ chmod a+x ~/bin/run_corason
 ## Download data and set your directory  
 `> mkdir bsc`  
 `> cd bsc`  
-`> wget https://github.com/nselem/bigscape-corason/tree/master/gbks`  
+`> wget https://github.com/nselem/bigscape-corason/tree/master/gbks.tar.gz`    
+`> wget https://github.com/nselem/bigscape-corason/tree/master/TauD.faa`    
+`> tar -zxvf .tar.gz`    
 `> ls`  
+
+## BiG-SCAPE example  
+`run_bigscape gbks salida`  
+
+## Corason example  
+`run_corason -g gbks -q TauD -s spectinomycin`  
