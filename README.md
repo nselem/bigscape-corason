@@ -20,7 +20,7 @@
 </table>
 
 
-   Installation. BiG Scape example, CORASON example. [create an anchor](#big-scape-corason-examples)  
+   Installation. BiG Scape example, CORASON example. [BiG-SCAPE CORASON examples](#big-scape-corason-examples)  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340617.svg)](https://doi.org/10.5281/zenodo.1340617)  
 
@@ -44,7 +44,6 @@ Instrucctions to install BiG-SCAPE as conda environment can be consulted here.
 `> chmod a+x ~/bin/run_corason`    
 
 ----------------
-[create an anchor](#anchors-in-markdown)
 ## BiG-SCAPE CORASON examples  
 ### Download data and set your directory  
 `> mkdir bsc`  
