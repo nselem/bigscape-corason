@@ -12,11 +12,10 @@ To install docker consult here.
 Instrucctions to install BiG-SCAPE as conda environment can be consulted here.  
 
 ### Corason docker installation  
-<!--
-> mkdir ~/bin    # not required if you already have that  
-> curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason  
-chmod a+x ~/bin/run_corason  
--->  
+`> mkdir ~/bin    # not required if you already have that`    
+`> curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason`    
+`> chmod a+x ~/bin/run_corason`    
+
 ----------------
 ## Download data and set your directory  
 `> mkdir bsc`  
@@ -30,4 +29,4 @@ chmod a+x ~/bin/run_corason
 `run_bigscape gbks salida`  
 
 ## Corason example  
-`run_corason -g gbks -q TauD -s BGC0000715.1.cluster001.gbk`    
+`run_corason -g gbks -q TauD.faa -s BGC0000715.1.cluster001.gbk`    
