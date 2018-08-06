@@ -1,13 +1,14 @@
 # BiG-SCAPE/CORASON pipeline
 
 <table>
-<tr><td> <img src="images/corason.png" alt="corason" width="250px"/>  
-   </td><td style="vertical-align: middle"> <img src="images/bigscape.png" alt="bigscape" /> </td></tr>
-<tr><td>
+
    <a href="https://github.com/nselem/corason/wiki"> Corason wiki</a>
    </td><td style="vertical-align: middle">
     <a href="https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home"> BiG-SCAPE wiki</a>
    </td></tr>
+   <tr><td> <img src="images/corason.png" alt="corason" width="250px"/>  
+   </td><td style="vertical-align: middle"> <img src="images/bigscape.png" alt="bigscape" /> </td></tr>
+<tr><td>
 </table>
 
 
