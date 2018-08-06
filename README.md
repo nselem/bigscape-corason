@@ -2,13 +2,15 @@
 
 <img src="https://github.com/nselem/bigscape-corason/blob/master/images/corason.png" alt="drawing" width="200px"/>  
 ![bigscape.png](https://github.com/nselem/bigscape-corason/blob/master/images/bigscape.png)  
-https://github.com/nselem/corason/wiki  
-https://github.com/nselem/corason/  
-https://git.wageningenur.nl/medema-group/BiG-SCAPE  
-https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home  
+
+https://github.com/nselem/corason/wiki   
+https://github.com/nselem/corason/    
+https://git.wageningenur.nl/medema-group/BiG-SCAPE   
+https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home   
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340617.svg)](https://doi.org/10.5281/zenodo.1340617)  
-https://zenodo.org/record/1340617/files/gbks.tar.gz?download=1  
-https://zenodo.org/record/1340617/files/genomes.tar.gz?download=1  
+
+`wget https://zenodo.org/record/1340617/files/gbks.tar.gz?download=1`    
+`https://zenodo.org/record/1340617/files/genomes.tar.gz?download=1`    
 
 ## Installation
 Following instructions cover Docker installation of both pipelines.    
