@@ -1,5 +1,5 @@
 # BiG-SCAPE/CORASON pipeline
-![corason.png](https://github.com/nselem/bigscape-corason/blob/master/images/corason.png)  
+![corason.png](https://github.com/nselem/bigscape-corason/blob/master/images/corason.png  =250x)  
 ![bigscape.png](https://github.com/nselem/bigscape-corason/blob/master/images/bigscape.png)  
 https://github.com/nselem/corason/wiki  
 https://github.com/nselem/corason/  
