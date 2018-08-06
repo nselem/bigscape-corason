@@ -1,5 +1,9 @@
 # BiG-SCAPE/CORASON pipeline
 
+https://github.com/nselem/corason/wiki  
+https://github.com/nselem/corason/
+https://git.wageningenur.nl/medema-group/BiG-SCAPE  
+https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home  
 ## Installation
 Following instructions cover Docker installation of both pipelines.    
 To install docker consult here.  
