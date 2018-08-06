@@ -3,6 +3,6 @@ BiG-SCAPE
 Corason  
 
 Installation  
-> pelr 
+> https://git.wageningenur.nl/medema-group/BiG-SCAPE/blob/master/run_bigscape  
 > docker  
 Data  
