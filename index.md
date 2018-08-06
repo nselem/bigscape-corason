@@ -14,4 +14,4 @@ chmod a+x ~/bin/run_corason
 -->  
 
 ## Data  
-[Gbks][gbks]  
+[Gbks][/blob/master/gbks]  
