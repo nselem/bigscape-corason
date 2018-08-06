@@ -2,9 +2,8 @@
 
 <table>
    <tr>
-      </td>
       <td style="vertical-align: middle"> <img src="images/bigscape.png" alt="bigscape" /> </td>
-      <td> <img src="images/corason.png" alt="corason" width="260px"/>  
+      <td> <img src="images/corason.png" alt="corason" width="260px"/>  </td>
    
    </tr>
 <tr>
