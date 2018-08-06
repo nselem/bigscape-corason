@@ -1,7 +1,15 @@
 # BiG-SCAPE/CORASON pipeline
 
-<img src="https://github.com/nselem/bigscape-corason/blob/master/images/corason.png" alt="drawing" width="200px"/>  
-![bigscape.png](https://github.com/nselem/bigscape-corason/blob/master/images/bigscape.png)  
+<table>
+<tr><td> <img src="images/corason.png" alt="corason" width="200px"/>  
+   </td><td style="vertical-align: middle">Gabrielle <br/>Senior Institute Assistant<br/>University of Pittsburgh</td></tr>
+<tr><td>
+  <img src="images/bigscape.png" alt="bigscape" width="200px"/>! 
+   
+   
+   </td><td style="vertical-align: middle">Kaylen Sanders<br/>Institute Assistant<br/>University of Pittsburgh</td></tr>
+</table>
+
 
 https://github.com/nselem/corason/wiki   
 https://github.com/nselem/corason/    
