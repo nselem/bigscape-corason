@@ -45,7 +45,7 @@ Instrucctions to install BiG-SCAPE as conda environment can be consulted here.
 
 > mkdir ~/bin    # not required if you already have that  
 `> cd bsc`  
-`> curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason`    
+`> curl -q https://github.com/nselem/bigscape-corason/blob/master/scripts/data_bigscape_corason.sh > ~/bin/data_bigscape_corason.sh`    
 `> chmod a+x ~/bin/run_corason`  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340706.svg)](https://doi.org/10.5281/zenodo.1340706)
 
