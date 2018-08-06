@@ -19,7 +19,7 @@ chmod a+x ~/bin/run_corason
 -->  
 ----------------
 ## Download data and set your directory  
-> >mkdir bsc  
-> \>cd bsc  
+`> mkdir bsc`  
+`> cd bsc`  
 `> wget [https://github.com/nselem/bigscape-corason/tree/master/gbks](https://github.com/nselem/bigscape-corason/tree/master/gbks)`  
 `> ls`  
