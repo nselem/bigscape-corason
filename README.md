@@ -45,13 +45,13 @@ Instrucctions to install BiG-SCAPE as conda environment can be consulted here.
 
 `> mkdir bsc`  
 `> cd bsc`  
-`wget https://zenodo.org/record/1340617/files/gbks.tar.gz?download=1`    
-`wget https://zenodo.org/record/1340617/files/genomes.tar.gz?download=1`    
-`wget https://github.com/nselem/bigscape-corason/tree/master/TauD.faa`    
+`wget https://zenodo.org/record/1340706/files/gbks.tar.gz?download=1`    
+`wget https://zenodo.org/record/1340706/files/genomes.tar.gz?download=1`    
+`https://zenodo.org/record/1340706/files/TauD.fasta?download=1`    
 `> tar -zxvf gbks.tar.gz?download=1.tar.gz`    
 `> tar -zxvf genomes.tar.gz?download=1`      
 `> ls`  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340617.svg)](https://doi.org/10.5281/zenodo.1340617)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340706.svg)](https://doi.org/10.5281/zenodo.1340706)
 
 ## BiG-SCAPE example  
 `run_bigscape gbks salida`  
