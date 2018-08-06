@@ -43,14 +43,10 @@ Instrucctions to install BiG-SCAPE as conda environment can be consulted here.
 ## BiG-SCAPE CORASON examples  
 ### Download data and set your directory  
 
-`> mkdir bsc`  
+> mkdir ~/bin    # not required if you already have that  
 `> cd bsc`  
-`wget https://zenodo.org/record/1340706/files/gbks.tar.gz?download=1`    
-`wget https://zenodo.org/record/1340706/files/genomes.tar.gz?download=1`    
-`https://zenodo.org/record/1340706/files/TauD.fasta?download=1`    
-`> tar -zxvf gbks.tar.gz?download=1.tar.gz`    
-`> tar -zxvf genomes.tar.gz?download=1`      
-`> ls`  
+`> curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason`    
+`> chmod a+x ~/bin/run_corason`  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340706.svg)](https://doi.org/10.5281/zenodo.1340706)
 
 ## BiG-SCAPE example  
