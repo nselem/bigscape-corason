@@ -14,4 +14,4 @@ chmod a+x ~/bin/run_corason
 -->  
 
 ## Data  
-(Gbks)[https://github.com/nselem/bigscape-corason/tree/master/gbks]  
+[Gbks][gbks]  
