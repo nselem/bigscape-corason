@@ -4,12 +4,10 @@
 <tr><td> <img src="images/corason.png" alt="corason" width="200px"/>  
    </td><td style="vertical-align: middle"> <img src="images/bigscape.png" alt="bigscape" /> </td></tr>
 <tr><td>
-   <a href="https://github.com/nselem/corason"> Corason site</a>
    <a href="https://github.com/nselem/corason/wiki"> Corason wiki</a>
-  
    </td><td style="vertical-align: middle">
-   https://git.wageningenur.nl/medema-group/BiG-SCAPE   
-https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home   </td></tr>
+    <a href="https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home"> BiG-SCAPE wiki</a>
+   </td></tr>
 </table>
 
 
