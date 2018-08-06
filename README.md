@@ -20,7 +20,7 @@
 
 ## Installation
 Following instructions cover Docker installation of both pipelines.    
-To install docker consult here.  
+To install docker consult [here](pages/dockerInstal.md).  
 
 ### BiG-SCAPE docker installation     
 > mkdir ~/bin    # not required if you already have that  
