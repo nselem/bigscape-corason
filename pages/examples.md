@@ -19,7 +19,7 @@ Once data have been downloaded run the following command at the terminal:
  
 The _input_ file for bigscape is the directory _gbks_ that contains genbank files of sequences of Biosynthetical gene clusters (BGCs) predicted by antiSMASH. The big scape _output_  will be stored at the directory big_scape_salida.    
 
-After BiG-SCAPE finished, open the file index.html located inside the folder bigscape_salida in a browser such as Chrome or Firefox. This is an interactive website displays BiG-SCAPE results.   
+After BiG-SCAPE finished open the index.html file located inside the folder bigscape_salida. This file can be open in a browser such as Chrome or Firefox. This is an interactive website that displays BiG-SCAPE results.   
 ![index](images/bigscape_example2.png)  
 
 
