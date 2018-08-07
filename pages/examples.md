@@ -28,14 +28,17 @@ Select a class at the top of the site:
 and the screen displays a network visualization of bgc families within this class.  
  <img src="images/bigscape_example4.png" alt="Chose family" width="300" height="300"/> 
 
+In this case class NRPS contains 10 BGCs organized in one family of three members, 1 family of two members and 5 singletons.  
+
 Select a family in this network to visualize bgcs sorted and aligned by CORASON.  
  <img src="images/bigscape_example5.png" alt="Corason" width="600" height="200"/> 
+ This family contains three members.  
 
 
 BiG-SCAPE output is also compatible with Cytoscape visualization.  
 
 
-BiG-SCAPE was employeed in calculate BGC familiess in 103 closed Streptomyces genomes. The outcome of this experiment can be found [here](http://bioinformatics.nl/~xnava009/streptomyces_out/)  
+In another example BiG-SCAPE was employeed in calculate BGC familiess in 103 closed Streptomyces genomes. The outcome of this experiment can be found [here](http://bioinformatics.nl/~xnava009/streptomyces_out/)  
 
 
 
