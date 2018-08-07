@@ -15,7 +15,7 @@ At the moment, there are two options available to install BiG-SCAPE:
 > $ chmod a+x ~/bin/run_bigscape    
 > $ ~/bin/run_bigscape 
 
-If bigscape is correctly installed after some seconds the terinal displays the help menu.  
+If bigscape is correctly installed the terminal displays the help menu after some seconds.  
 ![bigscape help](images/bigscape_help.png)
 
 ### manuall installation  
