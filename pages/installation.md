@@ -61,8 +61,8 @@ Once the environment is ready (or the packages installed) download or clone the 
 (see here for an overview of the options)  
 
 
-### Corason installation   
-## docker installation   
+## Corason installation   
+### docker installation   
 `$ mkdir ~/bin    # not required if you already have that`    
 `$ curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason`    
 `$ chmod a+x ~/bin/run_corason`    
