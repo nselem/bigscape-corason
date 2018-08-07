@@ -23,13 +23,14 @@ After BiG-SCAPE finished open the index.html file located inside the folder bigs
 ![index](images/bigscape_example2.png)  
 
 Select a class at the top of the site:  
- <img src="images/bigscape_example3.png" alt="Select class" width="200" height="50"/> 
+ <img src="images/bigscape_example3.png" alt="Select class" width="200" height="100"/> 
  
 and the screen displays a network visualization of bgc families within this class.  
-![chose family](images/bigscape_example4.png =250x)  
+ <img src="images/bigscape_example4.png" alt="Chose family" width="200" height="200"/> 
 
 Select a family in this network to visualize bgcs sorted and aligned by CORASON.  
-![Corason](images/bigscape_example5.png =250x)  
+ <img src="images/bigscape_example5.png" alt="Corason" width="200" height="200"/> 
+
 
 BiG-SCAPE output is also compatible with Cytoscape visualization.  
 
