@@ -35,17 +35,19 @@ To install docker consult [here](pages/dockerInstall.md).
 Instrucctions to install BiG-SCAPE as conda environment can be consulted here.  
 
 ### Corason docker installation  
-`> mkdir ~/bin    # not required if you already have that`    
-`> curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason`    
-`> chmod a+x ~/bin/run_corason`    
+`$ mkdir ~/bin    # not required if you already have that`    
+`$ curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason`    
+`$ chmod a+x ~/bin/run_corason`    
 
 ----------------
 ## BiG-SCAPE CORASON examples  
-### Download data and set your directory  
-
-`mkdir ~/bin    # not required if you already have that`  
-`curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh > ~/bin/data_bigscape_corason.sh`    
-`chmod a+x ~/bin/data_bigscape_corason.sh`    
+### Download example dataset  
+In a clean directory donwload and execute the following script to obtain the directories gbk and genomes and the fatsta file TauD.fasta.  
+`$ mkdir ~/bin    # not required if you already have that`  
+`$ curl https://raw.githubusercontent.com/nselem/bigscapecorason/master/scripts/data_bigscape_corason.sh>~/bin/data_bigscape_corason.sh`    
+`$ chmod a+x ~/bin/data_bigscape_corason.sh`    
+`$ ./bin/data_bigscape_corason.sh`    
+  
   
 Data can also be downloaded manually at: 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340706.svg)](https://doi.org/10.5281/zenodo.1340706)  
