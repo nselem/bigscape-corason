@@ -1,6 +1,6 @@
 # BiG-SCAPE/CORASON pipeline  
 
-This tutorial covers [Installation](#Installation) and [BiG-SCAPE CORASON examples](#big-scape-corason-examples). To a more detailed explanation about parameters in BiG-SCAPE or CORASON pleaseconsult their wiki sites.  
+This tutorial covers [installation](#Installation) and [BiG-SCAPE CORASON examples](#big-scape-corason-examples). To a more detailed explanation about parameters in BiG-SCAPE or CORASON please consult their wiki sites.  
 
 <table>
    <tr>
@@ -21,7 +21,7 @@ This tutorial covers [Installation](#Installation) and [BiG-SCAPE CORASON exampl
 </table>
 
 ## Installation
-Following instructions cover [Docker](https://www.docker.com/) installation of both pipelines: BiG-SCAPE and Corason. Docker is a container services enterprise available for multiple operative systems such as MAC OS, Windows 10 and Fedora, Ubuntu, Centos and Debian. To install docker consult [here](pages/dockerInstall.md).  
+Following instructions cover [Docker](https://www.docker.com/) installation of both pipelines: BiG-SCAPE and Corason. Docker is a container plataform provider available for multiple operative systems such as MAC OS, Windows 10 and Fedora, Ubuntu, Centos and Debian. To install docker consult [here](pages/dockerInstall.md).  
 
 BiG-SCAPE can also be installed manually or as a conda environment.  
 
