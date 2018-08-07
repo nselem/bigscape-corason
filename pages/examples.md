@@ -14,9 +14,14 @@ Data can also be downloaded manually at:
 Once data have been downloaded run the following command at the terminal:  
 
 `$ run_bigscape gbks bigscape_salida`  
-  
--input: gbks  
--output: big_scape_salida  
+ If bigscape is properly running the terminal will show something similar to:  
+ ![bigscape example1](imapes/bigscape_example1.png)
+ 
+Th _input_ file for bigscape is the directory _gbks_ that contains genbank files of sequences of Biosynthetical gene clusters (BGCs) predicted by antiSMASH.   
+The big scape _output_  will be stored at the directory big_scape_salida.    
+
+Results can be consulted at:  
+
 
 
 ## CORASON example 
