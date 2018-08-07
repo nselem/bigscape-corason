@@ -1,6 +1,6 @@
 # BiG-SCAPE/CORASON pipeline  
 
-This tutorial covers [installation](#Installation) and [BiG-SCAPE CORASON examples](#big-scape-corason-examples). To a more detailed explanation about parameters in BiG-SCAPE or CORASON please consult their wiki sites.  
+This tutorial covers [installation](pages/installation) and [BiG-SCAPE CORASON examples](pages/examples). To get a more detailed explanation about parameters in BiG-SCAPE or CORASON please consult their wiki sites.  
 
 <table>
    <tr>
