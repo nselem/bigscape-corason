@@ -4,7 +4,7 @@ on Linux/Windows/Mac Docker engine installation please consult
 [Docker getting Starting](https://docs.docker.com/linux/step_one/).  
 
 `curl -fsSL https://get.docker.com/ | sh`  
-*if you don’t have curl search on this document curl installation
+*if you don’t have curl please [install curl](curlInstallation.md).
   
 Then type:  
 `sudo usermod -aG docker your-user`  
