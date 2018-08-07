@@ -55,9 +55,9 @@ Data can also be downloaded manually at:
 Once data have been downloaded run the following command at the terminal:  
 
 `$ run_bigscape gbks bigscape_salida`  
-
--input: gbks
--output: big_scape_salida 
+  
+-input: gbks  
+-output: big_scape_salida  
 
 
 
