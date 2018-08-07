@@ -14,7 +14,3 @@ Log out from your ubuntu session (restart your machine) and get back in into you
 
 Test your docker engine with the command:  
 $ docker run hello-world   
-### curl installation  
-- `which curl`  
-- `sudo apt-get update`  
-- `sudo apt-get install curl`  
