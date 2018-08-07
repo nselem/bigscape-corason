@@ -21,6 +21,10 @@ The _input_ file for bigscape is the directory _gbks_ that contains genbank file
 
 After BiG-SCAPE finished open the index.html file located inside the folder bigscape_salida. This file can be open in a browser such as Chrome or Firefox. This is an interactive website that displays BiG-SCAPE results.   
 ![index](images/bigscape_example2.png)  
+![select class](images/bigscape_example3.png)  
+![chose family](images/bigscape_example4.png)  
+![Corason](images/bigscape_example5.png)  
+[Streptomyces]http://bioinformatics.nl/~xnava009/streptomyces_out/  
 
 
 
