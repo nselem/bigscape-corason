@@ -28,10 +28,10 @@ BiG-SCAPE can also be installed manually or as a conda environment.
 To proceed with the installation the program `curl` needs to be installed. Though it is usually installed in many linux machine if you are not sure please install curl.  
 
 ### BiG-SCAPE docker installation     
-> mkdir ~/bin    # not required if you already have that  
-> curl -q https://git.wageningenur.nl/medema-group/BiG-SCAPE/blob/master/run_bigscape>~/bin/run_bigscape    
-> chmod a+x ~/bin/run_bigscape    
-> run_bigscape    
+> $ mkdir ~/bin    # not required if you already have that  
+> $ curl -q https://git.wageningenur.nl/medema-group/BiG-SCAPE/blob/master/run_bigscape>~/bin/run_bigscape    
+> $ chmod a+x ~/bin/run_bigscape    
+> $ run_bigscape    
 
 
 ### Corason docker installation  
