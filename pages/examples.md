@@ -23,7 +23,8 @@ After BiG-SCAPE finished open the index.html file located inside the folder bigs
 ![index](images/bigscape_example2.png)  
 
 Select a class at the top of the site:  
- <img src="iimages/bigscape_example3.png" alt="Select class" width="200" height="50"/> 
+ <img src="images/bigscape_example3.png" alt="Select class" width="200" height="50"/> 
+ 
 and the screen displays a network visualization of bgc families within this class.  
 ![chose family](images/bigscape_example4.png =250x)  
 
