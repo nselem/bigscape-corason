@@ -1,4 +1,6 @@
-# BiG-SCAPE/CORASON pipeline
+# BiG-SCAPE/CORASON pipeline  
+
+This tutorial covers [Installation](#Installation) and [BiG-SCAPE CORASON examples](#big-scape-corason-examples). To a more detailed explanation about parameters in BiG-SCAPE or CORASON pleaseconsult their wiki sites.  
 
 <table>
    <tr>
@@ -18,21 +20,19 @@
    </tr>
 </table>
 
-
-   Installation. BiG Scape example, CORASON example. [BiG-SCAPE CORASON examples](#big-scape-corason-examples)  
-
-
-
 ## Installation
-Following instructions cover Docker installation of both pipelines.    
-To install docker consult [here](pages/dockerInstall.md).  
+Following instructions cover [Docker](https://www.docker.com/) installation of both pipelines: BiG-SCAPE and Corason. Docker is a container services enterprise available for multiple operative systems such as MAC OS, Windows 10 and Fedora, Ubuntu, Centos and Debian. To install docker consult [here](pages/dockerInstall.md).  
+
+BiG-SCAPE can also be installed manually or as a conda environment.  
+
+To proceed with the installation the program `curl` needs to be installed. Though it is usually installed in many linux machine if you are not sure please install curl.  
 
 ### BiG-SCAPE docker installation     
 > mkdir ~/bin    # not required if you already have that  
 > curl -q https://git.wageningenur.nl/medema-group/BiG-SCAPE/blob/master/run_bigscape>~/bin/run_bigscape    
 > chmod a+x ~/bin/run_bigscape    
+> run_bigscape    
 
-Instrucctions to install BiG-SCAPE as conda environment can be consulted here.  
 
 ### Corason docker installation  
 `$ mkdir ~/bin    # not required if you already have that`    
@@ -44,16 +44,22 @@ Instrucctions to install BiG-SCAPE as conda environment can be consulted here.
 ### Download example dataset  
 In a clean directory donwload and execute the following script to obtain the directories gbk and genomes and the fatsta file TauD.fasta.  
 `$ mkdir ~/bin    # not required if you already have that`  
-`$ curl https://raw.githubusercontent.com/nselem/bigscapecorason/master/scripts/data_bigscape_corason.sh>~/bin/data_bigscape_corason.sh`    
+`$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh>~/bin/data_bigscape_corason.sh`    
 `$ chmod a+x ~/bin/data_bigscape_corason.sh`    
-`$ ./bin/data_bigscape_corason.sh`    
-  
-  
+`$ data_bigscape_corason.sh`    
+
 Data can also be downloaded manually at: 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340706.svg)](https://doi.org/10.5281/zenodo.1340706)  
-
+  
 ## BiG-SCAPE example  
-`run_bigscape gbks salida`  
+Once data have been downloaded run the following command at the terminal:  
+
+`$ run_bigscape gbks bigscape_salida`  
+
+-input: gbks
+-output: big_scape_salida 
+
+
 
 ## Corason example  
 `run_corason -g gbks -q TauD.faa -s BGC0000715.1.cluster001.gbk`    
