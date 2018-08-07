@@ -1,10 +1,10 @@
 
 
 # Installation
-Following instructions cover [Docker](https://www.docker.com/) installation of both pipelines: BiG-SCAPE and Corason. BiG-SCAPE can also be installed manually or as a conda environment. Docker is a container plataform provider available for multiple operative systems such as MAC OS, Windows 10 and Linux (Fedora, Ubuntu, Centos and Debian). To install docker consult [here](dockerInstall.md).  
+Following instructions cover [Docker](https://www.docker.com/) installation of both pipelines: [BiG-SCAPE](#big-scape-installation) and [CORASON](#corason-installation). BiG-SCAPE can also be installed manually or as a conda environment. Docker is a container plataform provider available for multiple operative systems such as MAC OS, Windows 10 and Linux (Fedora, Ubuntu, Centos and Debian). To install docker consult [here](dockerInstall.md).  
 To proceed with the installation the program `curl` needs to be installed. If you are not sure about it please [install curl](curlInstallation.md).  
 
-## BiG-SCAPE  
+## BiG-SCAPE installation  
 At the moment, there are two options available to install BiG-SCAPE:  
 -Using the pre-built Docker image, a slightly larg download but zero-fuss install on any system that can run Docker.  
 -Using the Bioconda distribution.  
@@ -14,6 +14,9 @@ At the moment, there are two options available to install BiG-SCAPE:
 > $ curl -q https://git.wageningenur.nl/medema-group/BiG-SCAPE/blob/master/run_bigscape>~/bin/run_bigscape    
 > $ chmod a+x ~/bin/run_bigscape    
 > $ ~/bin/run_bigscape 
+
+If bigscape is correctly installed after some seconds the terinal displays the help menu.  
+![bigscape help](images/bigscape_help.png)
 
 ### manuall installation  
 #### Requirements   
@@ -58,7 +61,7 @@ Once the environment is ready (or the packages installed) download or clone the 
 (see here for an overview of the options)  
 
 
-### Corason  
+### Corason installation   
 ## docker installation   
 `$ mkdir ~/bin    # not required if you already have that`    
 `$ curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason`    
