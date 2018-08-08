@@ -5,7 +5,7 @@ Here you can find instructions for [installation](pages/installation) and a [BiG
 
 <table>
    <tr>
-      <td> <img src="images/corason.png" alt="corason" width="260px"/>  </td>
+      <td> <img src="images/bigscape_corason.png" alt="corason" width="260px"/>  </td>
    
    </tr>
 <table>
