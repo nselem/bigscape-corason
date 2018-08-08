@@ -10,11 +10,11 @@ Here you can find instructions for [installation](pages/installation) and a [BiG
    </tr>
 <table border="0">
 <tr>
-   <td style="vertical-align: middle" width="300px">
+   <td style="vertical-align: middle" align="center" width="300px">
     <a href="https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home"> BiG-SCAPE wiki</a>
    </td>
    
-   <td style="vertical-align: middle" width="300px">
+   <td style="vertical-align: middle" align="center" width="300px">
    <a href="https://github.com/nselem/corason/wiki"> Corason wiki</a>
       </td>
    
