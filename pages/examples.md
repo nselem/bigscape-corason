@@ -13,7 +13,7 @@ Data can also be downloaded manually at:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1340706.svg)](https://doi.org/10.5281/zenodo.1340706)  
 
 ### How to compile your own input dataset  
-In this tutorial, we will work with the above example data. If you want to use your own gene clusters as input for BiG-SCAPE and the CORASON family mode integrated within the BiG-SCAPE pipeline, you can search for publicly available genomes in antiSMASH-DB and download the desired cluster files in GBK format. Alternatively, you can perform your own antiSMASH runs on the public web server or on your local system, collect the cluster GBK files and put them together in a folder that you can use as input for BiG-SCAPE..Entries from MIBiG can be added automatically by adding the --mibig flag to the end of your BiG-SCAPE command (see below).  
+In this tutorial, we will work with the above example data. If you want to use your own gene clusters as input for BiG-SCAPE and the CORASON family mode integrated within the BiG-SCAPE pipeline, you can search for publicly available genomes in [antiSMASH-DB](https://antismash-db.secondarymetabolites.org/#!/start) and download the desired cluster files in GBK format. Alternatively, you can perform your own antiSMASH runs on the public [web server](https://antismash.secondarymetabolites.org/#!/start) or on your local system, collect the cluster GBK files and put them together in a folder that you can use as input for BiG-SCAPE..Entries from MIBiG can be added automatically by adding the --mibig flag to the end of your BiG-SCAPE command (see below).  
 
 ## BiG-SCAPE example  
 We will now proceed with the example data. Once data have been downloaded run the following command at the terminal:  
