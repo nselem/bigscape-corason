@@ -3,18 +3,18 @@ BiG-SCAPE and CORASON provide a set of tools to explore the diversity of biosynt
 
 Here you can find instructions for [installation](pages/installation) and a [BiG-SCAPE CORASON tutorial](pages/examples). To get a more detailed explanation about parameters in BiG-SCAPE or CORASON please consult their wiki sites.  
 
-<table>
+<table border="0">
    <tr>
-      <td> <img src="images/bigscape_corason.png" alt="corason" width="500px"/>  </td>
+      <td> <img src="images/bigscape_corason.png" alt="corason" width="600px"/>  </td>
    
    </tr>
-<table>
+<table border="0">
 <tr>
-   <td style="vertical-align: middle">
+   <td style="vertical-align: middle" width="300px">
     <a href="https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home"> BiG-SCAPE wiki</a>
    </td>
    
-   <td>
+   <td style="vertical-align: middle" width="300px">
    <a href="https://github.com/nselem/corason/wiki"> Corason wiki</a>
       </td>
    
