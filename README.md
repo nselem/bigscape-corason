@@ -24,4 +24,4 @@ Here you can find instructions for [installation](pages/installation) and a [BiG
 
 - [About](pages/whatIs) BiG-SCAPE and CORASON.  
 - BiG-SCAPE and CORASON [installation guide](pages/installation).  
-- BiG-SCAPE and CORASON [examples](pages/examples).  
+- BiG-SCAPE and CORASON [tutorial](pages/examples).  
