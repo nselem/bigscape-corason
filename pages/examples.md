@@ -12,7 +12,7 @@ Download and execute the following script to obtain the files:
 
 ```bash
 $ mkdir ~/bin/example    # not required if you already have that
-$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh> ~/bin/example/data_bigscape_corason.sh
+$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh > ~/bin/example/data_bigscape_corason.sh
 $ chmod a+x ~/bin/example/data_bigscape_corason.sh
 $ cd ~/bin/example && ~/bin/example/data_bigscape_corason.sh
 ```
@@ -42,23 +42,26 @@ After BiG-SCAPE has finished successfully open the `index.html` file located ins
 
 ![index](images/bigscape_example2.png)
 
-To start exploring, select a class at the top of the site:  
- <img src="images/bigscape_example3.png" alt="Select class" width="400" height="100"/> 
+To start exploring, select a class at the top of the site:
+
+<img src="images/bigscape_example3.png" alt="Select class" width="400" height="100"/> 
  
-Now, the screen will display a network visualization of BGC families within this class.  
- <img src="images/bigscape_example4.png" alt="Chose family" width="300" height="300"/> 
+Now, the screen will display a network visualization of BGC families within this class.
+
+<img src="images/bigscape_example4.png" alt="Chose family" width="300" height="300"/> 
 
 In this case, the NRPS class contains 10 BGCs organized in one gene cluster family of three members, one family of two members and five singletons.  
 
-Now select a family in this network to visualize BGCs sorted and aligned by CORASON.  
- <img src="images/bigscape_example5.png" alt="Corason" width="600" height="200"/> 
- This family contains three members.  
+Now select a family in this network to visualize BGCs sorted and aligned by CORASON.
+
+<img src="images/bigscape_example5.png" alt="Corason" width="600" height="200"/> 
+
+This family contains three members.
 
 
-BiG-SCAPE output is also compatible with Cytoscape visualization.  
+BiG-SCAPE output can also be imported with Cytoscape
 
-
-In another example BiG-SCAPE was employed to calculate BGC familiess in 103 complete Streptomyces genomes. The outcome of this run can be found [here](http://bioinformatics.nl/~xnava009/streptomyces_out/)  
+In another example BiG-SCAPE was employed to calculate BGC familiess in 103 complete Streptomyces genomes. The outcome of this run can be found [here](http://bioinformatics.nl/~xnava009/streptomyces_out/)
 
 
 
