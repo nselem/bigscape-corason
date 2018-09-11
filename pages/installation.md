@@ -1,7 +1,7 @@
 
 # Installation
 
-The following instructions cover [Docker](https://www.docker.com/) installation of both pipelines: [BiG-SCAPE](#big-scape-installation) and [CORASON](#corason-installation). BiG-SCAPE can also be installed manually or within a virtual environment. Docker is a container platform provider available for multiple operative systems such as Mac OS X, Windows 10 and Linux (Fedora, Ubuntu, Centos and Debian). To install Docker consult [here](dockerInstall.md).  
+The following instructions cover [Docker](https://www.docker.com/) installation of both pipelines: [BiG-SCAPE](#big-scape-installation) and [CORASON](#corason-installation). BiG-SCAPE can also be installed manually or within a virtual environment. Docker is a container platform provider available for multiple operative systems such as Mac OS X, Windows 10 and Linux (Fedora, Ubuntu, Centos and Debian). To install Docker consult [here](dockerInstall.md).
 The installation procedure uses `curl`. See [here](curlInstallation.md) if you don't have it.
 
 ## BiG-SCAPE installation
@@ -28,7 +28,7 @@ If BiG-SCAPE is correctly installed the terminal displays the help menu after so
 * Python (Python 3.x. compatibility with Python 2 is not guaranteed)
 * The [HMMER](http://hmmer.org/) suite, version 3.2 (or any version compatible with Pfam)
 * The (processed) Pfam database. For this, download the latest `Pfam-A.hmm.gz`
-file from the [Pfam website](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/), uncompress it and process it using the hmmpress command.
+file from the [Pfam website](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/), uncompress it and process it using the `hmmpress` command.
 * Biopython
 * Numpy
 * scipy
