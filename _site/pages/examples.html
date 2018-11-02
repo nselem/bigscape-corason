@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/bigscape-corason/assets/css/style.css?v=">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>BiG-SCAPE / CORASON tutorial | BiG-SCAPE CORASON</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="BiG-SCAPE / CORASON tutorial" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="July 2018" />
+<meta property="og:description" content="July 2018" />
+<link rel="canonical" href="http://localhost:4000/bigscape-corason/pages/examples.html" />
+<meta property="og:url" content="http://localhost:4000/bigscape-corason/pages/examples.html" />
+<meta property="og:site_name" content="BiG-SCAPE CORASON" />
+<script type="application/ld+json">
+{"description":"July 2018","@type":"WebPage","url":"http://localhost:4000/bigscape-corason/pages/examples.html","headline":"BiG-SCAPE / CORASON tutorial","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="">View on GitHub</a>
+
+          <h1 id="project_title">BiG-SCAPE CORASON</h1>
+          <h2 id="project_tagline">July 2018</h2>
+
+          
+          <p style="text-align: center; background-color: white;">
+  <a href="/bigscape-corason/">Home</a> |
+  <a href="/bigscape-corason/pages/installation">Installation</a> |
+  <a href="/bigscape-corason/pages/examples">Tutorial</a> |
+  <a href="/bigscape-corason/pages/whatIs">About</a> 
+
+</p>
+
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="big-scape--corason-tutorial">BiG-SCAPE / CORASON tutorial</h1>
+
+<p>This tutorial explains how to download datasets to run BiG-SCAPE and CORASON, and provides examples for how to use both tools.</p>
+
+<h2 id="input-dataset">Input dataset</h2>
+
+<h3 id="example-dataset">Example dataset</h3>
+
+<p>The example dataset consists on three parts: a set of genomes (includes a single cluster from MIBiG), a set of GenBank files (selected clusters predicted from the set of genomes) and the TauD sequence from a <em>Streptomyces</em> genome (NRRL B-1347).</p>
+
+<p>Download and execute the following script to obtain the files:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>mkdir ~/bin/example    <span class="c"># not required if you already have that</span>
+<span class="nv">$ </span>curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh <span class="o">&gt;</span> ~/bin/example/data_bigscape_corason.sh
+<span class="nv">$ </span>chmod a+x ~/bin/example/data_bigscape_corason.sh
+<span class="nv">$ </span><span class="nb">cd</span> ~/bin/example <span class="o">&amp;&amp;</span> ~/bin/example/data_bigscape_corason.sh
+</code></pre></div></div>
+
+<p>Data can also be downloaded manually at: 
+<a href="https://doi.org/10.5281/zenodo.1340706"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1340706.svg" alt="DOI" /></a></p>
+
+<h3 id="how-to-compile-your-own-input-dataset">How to compile your own input dataset</h3>
+
+<p>In this tutorial, we will work with the above example data. If you want to use your own gene clusters as input for BiG-SCAPE and the CORASON family mode integrated within the BiG-SCAPE pipeline, you can search for publicly available genomes in <a href="https://antismash-db.secondarymetabolites.org/#!/start">antiSMASH-DB</a> and download the desired cluster files in GenBank (.gbk) format. Alternatively, you can perform your own antiSMASH runs on the public <a href="https://antismash.secondarymetabolites.org/#!/start">web server</a> or on your local system, collect the cluster GBK files and put them together in a folder that you can use as input for BiG-SCAPE. Entries from MIBiG can be added automatically by adding the <code class="highlighter-rouge">--mibig</code> flag to the end of your BiG-SCAPE command (see below).</p>
+
+<h2 id="big-scape-example">BiG-SCAPE example</h2>
+
+<p>We will now proceed with the example data. Once data has been downloaded, run the following command at the terminal (you should be now in the <code class="highlighter-rouge">~/bin/example</code> folder):</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>run_bigscape gbks example_output
+</code></pre></div></div>
+
+<p>If everything goes well, the terminal will show something similar to:</p>
+
+<p><img src="/bigscape-corason/pages/images/bigscape_example1.png" alt="bigscape example1.png" /></p>
+
+<p>The <em>input</em> for BiG-SCAPE is the directory <em>gbks</em> that contains GenBank files of sequences of Biosynthetical gene clusters (BGCs) predicted by antiSMASH. The BiG-SCAPE <em>output</em> will be stored in the directory <code class="highlighter-rouge">example_output</code>.</p>
+
+<p>After BiG-SCAPE has finished successfully open the <code class="highlighter-rouge">index.html</code> file located inside the <code class="highlighter-rouge">example_output</code> folder with your browser, (e.g. Chrome or Firefox). The file contains an interactive offline webpage that displays the BiG-SCAPE results and allows you to explore them.</p>
+
+<p><img src="/bigscape-corason/pages/images/bigscape_example2.png" alt="index" /></p>
+
+<p>To start exploring, select a class at the top of the site:</p>
+
+<p><img src="images/bigscape_example3.png" alt="Select class" width="400" height="100" /></p>
+
+<p>Now, the screen will display a network visualization of BGC families within this class.</p>
+
+<p><img src="images/bigscape_example4.png" alt="Chose family" width="300" height="300" /></p>
+
+<p>In this case, the NRPS class contains 10 BGCs organized in one gene cluster family of three members, one family of two members and five singletons.</p>
+
+<p>Now select a family in this network to visualize BGCs sorted and aligned by CORASON.</p>
+
+<p><img src="images/bigscape_example5.png" alt="Corason" width="600" height="200" /></p>
+
+<p>This family contains three members.</p>
+
+<p>BiG-SCAPE output can also be imported with Cytoscape</p>
+
+<p>In another example BiG-SCAPE was employed to calculate BGC familiess in 103 complete Streptomyces genomes. The outcome of this run can be found <a href="http://bioinformatics.nl/~xnava009/streptomyces_out/">here</a></p>
+
+<h2 id="corason-example">CORASON example</h2>
+
+<h2 id="corason-example-1">Corason example</h2>
+<p><code class="highlighter-rouge">run_corason -g gbks -q TauD.faa -s BGC0000715.1.cluster001.gbk</code></p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>

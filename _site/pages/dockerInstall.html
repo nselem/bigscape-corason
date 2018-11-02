@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/bigscape-corason/assets/css/style.css?v=">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Docker engine installation | BiG-SCAPE CORASON</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Docker engine installation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="July 2018" />
+<meta property="og:description" content="July 2018" />
+<link rel="canonical" href="http://localhost:4000/bigscape-corason/pages/dockerInstall.html" />
+<meta property="og:url" content="http://localhost:4000/bigscape-corason/pages/dockerInstall.html" />
+<meta property="og:site_name" content="BiG-SCAPE CORASON" />
+<script type="application/ld+json">
+{"description":"July 2018","@type":"WebPage","url":"http://localhost:4000/bigscape-corason/pages/dockerInstall.html","headline":"Docker engine installation","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="">View on GitHub</a>
+
+          <h1 id="project_title">BiG-SCAPE CORASON</h1>
+          <h2 id="project_tagline">July 2018</h2>
+
+          
+          <p style="text-align: center; background-color: white;">
+  <a href="/bigscape-corason/">Home</a> |
+  <a href="/bigscape-corason/pages/installation">Installation</a> |
+  <a href="/bigscape-corason/pages/examples">Tutorial</a> |
+  <a href="/bigscape-corason/pages/whatIs">About</a> 
+
+</p>
+
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="docker-engine-installation">Docker engine installation</h1>
+
+<p>This are Linux minimal Docker installation guide, if you don’t use Linux or you look for a detailed tutorial
+on Linux/Windows/Mac Docker engine installation, please consult
+<a href="https://docs.docker.com/linux/step_one/">Docker: Get Started</a>.</p>
+
+<p><code class="highlighter-rouge">curl -fsSL https://get.docker.com/ | sh</code>
+*if you don’t have curl please <a href="/bigscape-corason/pages/curlInstallation.html">install curl</a>.</p>
+
+<p>Then type:
+<code class="highlighter-rouge">sudo usermod -aG docker your-user</code></p>
+
+<p>Important step:
+Log out from your Ubuntu session (restart your machine) and get back in into your user session before the next step. You may need to restart your computer and not just log out from your session in order to changes to take effect.</p>
+
+<p>Test your docker engine with the command:
+<code class="highlighter-rouge">docker run hello-world</code></p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
