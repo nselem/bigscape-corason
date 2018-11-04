@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+ <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>BiG-SCAPE CORASON | July 2018</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="BiG-SCAPE CORASON" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="July 2018" />
+<meta property="og:description" content="July 2018" />
+<link rel="canonical" href="http://localhost:4000/bigscape-corason/tutorial/" />
+<meta property="og:url" content="http://localhost:4000/bigscape-corason/tutorial/" />
+<meta property="og:site_name" content="BiG-SCAPE CORASON" />
+<script type="application/ld+json">
+{"description":"July 2018","@type":"WebPage","url":"http://localhost:4000/bigscape-corason/tutorial/","headline":"BiG-SCAPE CORASON","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+    <head>
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>BiG-SCAPE CORASON</title>
+
+	<link rel="stylesheet" href="/bigscape-corason/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/bigscape-corason/tutorial/">
+	<link rel="shortcut icon" href="/bigscape-corason/images/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="/bigscape-corason/css/formstyle2.css"  />
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+	<link type="text/css" href="/bigscape-corason/css/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+	<link type="text/css" href="/bigscape-corason/css/alpaca_custom.css" rel="stylesheet" />
+	<link type="text/css" href="/bigscape-corason/css/alpaca-jqueryui.css" rel="stylesheet" />
+
+</head> 
+
+        </header>
+    </div>
+
+
+ <div id="page-wrap">
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+	 
+   <div id="form-header">
+            <div id="images">
+      <div id="gsclogo">
+      <img src="/bigscape-corason/images/bigscape.png" width="315" height="69" align="left">
+      </div>
+      <div id="mibig_logo">
+      <img src="/bigscape-corason/images/corason.png" width="136" height="66" align="right">
+      </div>
+      </div>
+      <div id="menu">
+        <a href=/bigscape-corason/>HOME</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="/bigscape-corason/installation">INSTALLATION</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="/bigscape-corason/tutorial">TUTORIAL</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="/bigscape-corason/about">ABOUT</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <br><br>
+        <hr>
+      </div>
+      </div>      
+
+
+        <h2></h2>
+   
+    <body>  
+
+<h1> BiG-SCAPE / CORASON tutorial  </h1>
+<br />  
+This tutorial explains how to download datasets to run BiG-SCAPE and CORASON, and provides examples for how to use both tools.
+<br />
+<h2> Input dataset  </h2>
+<br />
+<h2> Example dataset</h2>
+<br />
+The example dataset consists on three parts: a set of genomes (includes a single cluster from MIBiG), a set of GenBank files (selected clusters predicted from the set of genomes) and the TauD sequence from a *Streptomyces* genome (NRRL B-1347).
+<br />
+Download and execute the following script to obtain the files:
+<br />
+
+
+```bash <br />
+$ mkdir ~/bin/example    # not required if you already have that <br />
+$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh &gt; ~/bin/example/data_bigscape_corason.sh <br />
+$ chmod a+x ~/bin/example/data_bigscape_corason.sh <br />
+$ cd ~/bin/example &amp;&amp; ~/bin/example/data_bigscape_corason.sh <br />
+``` <br />
+
+
+
+<br />
+Data can also be downloaded manually at: 
+<a href="https://doi.org/10.5281/zenodo.1463920"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1463920.svg" alt="DOI" /></a>
+
+<br />
+<h3> How to compile your own input dataset </h3>   
+<br />
+In this tutorial, we will work with the above example data. If you want to use your own gene clusters as input for BiG-SCAPE and the CORASON family mode integrated within the BiG-SCAPE pipeline, you can search for publicly available genomes in
+<a href="https://antismash-db.secondarymetabolites.org/#!/start">antiSMASH-DB </a> and download the desired cluster files in GenBank (.gbk) format. Alternatively, you can perform your own antiSMASH runs on the public <a href="https://antismash.secondarymetabolites.org/#!/start">web server </a> or on your local system, collect the cluster GBK files and put them together in a folder that you can use as input for BiG-SCAPE. Entries from MIBiG can be added automatically by adding the `--mibig` flag to the end of your BiG-SCAPE command (see below).  
+<br />
+<h2> BiG-SCAPE example </h2>  
+
+We will now proceed with the example data. Once data has been downloaded, run the following command at the terminal (you should be now in the `~/bin/example` folder):
+<br />
+```bash <br />
+$ run_bigscape gbks example_output <br />
+``` <br />
+<br />
+If everything goes well, the terminal will show something similar to:
+<br />
+<img src="/bigscape-corason/images/bigscape_example1.png" alt="Select class" width="400" height="100" /> <br />
+ 
+The _input_ for BiG-SCAPE is the directory _gbks_ that contains GenBank files of sequences of Biosynthetical gene clusters (BGCs) predicted by antiSMASH. The BiG-SCAPE _output_ will be stored in the directory `example_output`.
+<br />
+After BiG-SCAPE has finished successfully open the `index.html` file located inside the `example_output` folder with your browser, (e.g. Chrome or Firefox). The file contains an interactive offline webpage that displays the BiG-SCAPE results and allows you to explore them.  <br />
+
+<img src="/bigscape-corason/images/bigscape_example2.png" alt="Select class" width="400" height="100" />   <br />
+To start exploring, select a class at the top of the site:  <br />
+
+<img src="/bigscape-corason/images/bigscape_example3.png" alt="Select class" width="400" height="100" /> <br />
+ 
+Now, the screen will display a network visualization of BGC families within this class.  <br />
+
+<img src="/bigscape-corason/images/bigscape_example4.png" alt="Chose family" width="300" height="300" /> <br />
+
+In this case, the NRPS class contains 10 BGCs organized in one gene cluster family of three members, one family of two members and five singletons.  <br />
+
+Now select a family in this network to visualize BGCs sorted and aligned by CORASON.  <br />
+
+<img src="/bigscape-corason/images/bigscape_example5.png" alt="Corason" width="600" height="200" /> <br />
+
+This family contains three members.<br />
+
+
+BiG-SCAPE output can also be imported with Cytoscape<br />
+
+In another example BiG-SCAPE was employed to calculate BGC familiess in 103 complete Streptomyces genomes. The outcome of this run can be found 
+<a href="http://bioinformatics.nl/~xnava009/streptomyces_out/"> here </a>
+
+<br />
+
+
+
+<h2> CORASON example </h2>
+<br />
+<h2> Corason example  </h2>
+`run_corason -g gbks -q TauD.faa -s BGC0000715.1.cluster001.gbk`    <br />
+
+</body>
+
+
+      </section>
+    </div>
+
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+	<main>
+		<footer>
+    <div id="footer"> Comments or questions on bigscape/corason? Please do not hesitate to <a href="mailto:marnix.medema@wur.nl">contact us</a>.
+      <br><br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </div>
+</footer>
+
+
+	</main>
+     </div>
+  </body>
+</html>

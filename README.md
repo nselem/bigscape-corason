@@ -1,9 +1,21 @@
----
-layout: default
----
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 
 <body>
-    
+
+	<div id="page-wrap">
+      <div id="images">
+      <div id="gsclogo">
+      <img src="/images/bigscape.png" width="315" height="69" align="left">
+      </div>
+      <div id="mibig_logo">
+      <img src="{{ "/images/corason.png" | prepend: site.baseurl }}" width="136" height="66" align="right">
+      </div>
+      </div>
+      
+   
       <div id="main">
       <br>
       <!--
@@ -17,23 +29,19 @@ layout: default
 
 <table align="center">
 	<tr>
-      <td> <img src="{{ "/images/bigscape_corason.png" | prepend: site.baseurl }}" alt="corason" width="600px"/>  </td>
+      <td> <img src="images/bigscape_corason.png" alt="corason" width="600px"/>  </td>
    </tr>
-<tr align="center" > <td>
-<table align="center">
-   <tr>
-   <td style="vertical-align: middle" align="center" width="300px">
+<tr align="center" >
+   <td style="vertical-align: middle" align="right" width="300px">
     <a href="https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/home"> BiG-SCAPE wiki</a>
    </td>
    
-   <td  style="vertical-align: middle" align="center" width="300px">
+   <td  style="vertical-align: middle" align="right" width="300px">
     <a href="https://github.com/nselem/corason/wiki"> Corason wiki</a>
    </td>
    
    </tr>
    </table>
-</td>
-</tr>
 </table>
 
 </div>
@@ -43,10 +51,15 @@ BiG-SCAPE and CORASON provide a set of tools to explore the diversity of biosynt
 y constructing BGC sequence similarity networks, grouping BGCs into gene cluster families, and exploring gene cluster diversity linked to enz
 yme phylogenies.   <br><br>
 
-Here you can find instructions for    <a href="{{ "/installation" | prepend: site.baseurl }}"> installation </a> and a <a href="{{ "/tutorial" | prepend: site.baseurl }}"> BiG-SCAPE/CORASON tutorial </a>. To get a more
+Here you can find instructions for [installation](pages/installation.md) and a [BiG-SCAPE CORASON tutorial](pages/examples.md). To get a more
  detailed explanation about parameters in BiG-SCAPE or CORASON please consult their wiki sites.  <br><br>
 
   
       </div>
+      </div>
+
+
 
 </body>
+
+</html>

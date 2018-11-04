@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+ <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>BiG-SCAPE CORASON | July 2018</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="BiG-SCAPE CORASON" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="July 2018" />
+<meta property="og:description" content="July 2018" />
+<link rel="canonical" href="http://localhost:4000/bigscape-corason/installation/" />
+<meta property="og:url" content="http://localhost:4000/bigscape-corason/installation/" />
+<meta property="og:site_name" content="BiG-SCAPE CORASON" />
+<script type="application/ld+json">
+{"description":"July 2018","@type":"WebPage","url":"http://localhost:4000/bigscape-corason/installation/","headline":"BiG-SCAPE CORASON","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+    <head>
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>BiG-SCAPE CORASON</title>
+
+	<link rel="stylesheet" href="/bigscape-corason/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/bigscape-corason/installation/">
+	<link rel="shortcut icon" href="/bigscape-corason/images/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="/bigscape-corason/css/formstyle2.css"  />
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+	<link type="text/css" href="/bigscape-corason/css/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+	<link type="text/css" href="/bigscape-corason/css/alpaca_custom.css" rel="stylesheet" />
+	<link type="text/css" href="/bigscape-corason/css/alpaca-jqueryui.css" rel="stylesheet" />
+
+</head> 
+
+        </header>
+    </div>
+
+
+ <div id="page-wrap">
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+	 
+   <div id="form-header">
+            <div id="images">
+      <div id="gsclogo">
+      <img src="/bigscape-corason/images/bigscape.png" width="315" height="69" align="left">
+      </div>
+      <div id="mibig_logo">
+      <img src="/bigscape-corason/images/corason.png" width="136" height="66" align="right">
+      </div>
+      </div>
+      <div id="menu">
+        <a href=/bigscape-corason/>HOME</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="/bigscape-corason/installation">INSTALLATION</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="/bigscape-corason/tutorial">TUTORIAL</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="/bigscape-corason/about">ABOUT</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <br><br>
+        <hr>
+      </div>
+      </div>      
+
+
+        <h2></h2>
+   
+    <body>  
+
+<h1> Installation </h1>
+
+The following instructions cover <a href="https://www.docker.com/"> Docker </a> installation of both pipelines: [BiG-SCAPE](#big-scape-installation) and [CORASON](#corason-installation). BiG-SCAPE can also be installed manually or within a virtual environment. Docker is a container platform provider available for multiple operative systems such as Mac OS X, Windows 10 and Linux (Fedora, Ubuntu, Centos and Debian). To install Docker consult <a href="/bigscape-corason/DockerInstall"> here </a>. The installation procedure uses `curl`. See <a href="/bigscape-corason/Curlinstallation"> curl installation </a> if you don't have it.<br />
+
+<h2> BiG-SCAPE installation </h2>
+
+At the moment, there are two methods available to run BiG-SCAPE:
+<br />
+- Using the pre-built Docker image, a slightly larger download but zero-fuss install on any system that can run Docker.<br />
+- Installing all the dependencies (using a virtual environment is recommended).<br />
+
+<h3> Installation using Docker </h3>  <br />
+
+```bash   <br />
+$ mkdir ~/bin    # not required if you already have that  <br />
+$ curl -q https://git.wageningenur.nl/medema-group/BiG-SCAPE/raw/master/run_bigscape &gt; ~/bin/run_bigscape  <br />
+$ chmod a+x ~/bin/run_bigscape  <br />
+$ ~/bin/run_bigscape  <br />
+```
+<br />
+
+If BiG-SCAPE is correctly installed the terminal displays the help menu after some seconds:<br />
+      <div id="images">
+      <img src="/bigscape-corason/images/bigscape_help.png" width="630" height="69" align="left" /><br />
+</div>
+<br /><br />
+
+
+<h3> Manual installation   </h3><br />
+<br />
+<h4> Requirements </h4>
+
+* Python (Python 3.x. compatibility with Python 2 is not guaranteed)<br />
+* The <a href="http://hmmer.org/"> HMMER </a> suite, version 3.2 (or any version compatible with Pfam)<br />
+* The (processed) Pfam database. For this, download the latest `Pfam-A.hmm.gz`<br />
+file from the <a href="ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/"> Pfam website </a>, uncompress it and process it using the `hmmpress` command.<br />
+* Biopython<br />
+* Numpy<br />
+* scipy<br />
+* scikit-learn<br />
+* NetworkX<br />
+<br /><br />
+<h4>  Installing dependencies using Conda </h4>  
+
+Although each library can be installed individually, the use of a virtual environment is highly recommended. Here is a quick guide for BiG-SCAPE installation using Miniconda (downloading the Pfam library manually is still necessary):
+<br />
+* Install 
+<a href="https://conda.io/miniconda.html"> Miniconda </a>. We recommend that you install the Python 3 version as default for all new conda environments. You will need to login again for the changes to go into effect. You can download Miniconda as follows:
+<br />
+```bash <br />
+$ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh <br />
+$ bash Miniconda3-latest-Linux-x86_64.sh <br />
+``` <br />
+<br /><br />
+* Create a new environment. You can choose Python 3 using `python=3` at the end of the next command even if you installed the Python 2 version of Miniconda (see additional documentation of the conda environment <a href="https://conda.io/docs/"> here </a>.
+<br />
+```bash <br />
+$ conda create --name bigscape <br />
+``` <br />
+<br /><br />
+* Activate new environment:
+<br />
+```bash <br />
+$ source activate bigscape <br />
+``` <br />
+<br /><br />
+* Install packages:
+<br />
+```bash <br />
+$ conda install numpy scipy scikit-learn <br />
+$ conda install -c bioconda hmmer biopython fasttree <br />
+$ conda install -c anaconda networkx <br />
+``` <br />
+<br /><br />
+Once the environment is ready (or the packages installed) download or clone the code from the repository and run as
+<br />
+```bash <br />
+$ python bigscape.py [parameters] <br /> 
+``` <br />
+<br /><br />
+<a href="https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/parameters"> (see here for an overview of the options) </a>.
+
+<br />
+<h2> Corason installation </h2>  
+
+<h3> Docker installation </h3>
+
+```bash <br />
+$ mkdir ~/bin    # not required if you already have that <br />
+$ curl -q https://github.com/nselem/corason/blob/master/run_corason &gt; ~/bin/run_corason <br />
+$ chmod a+x ~/bin/run_corason <br />
+``` <br />
+
+</body>
+<hr />
+
+
+      </section>
+    </div>
+
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+	<main>
+		<footer>
+    <div id="footer"> Comments or questions on bigscape/corason? Please do not hesitate to <a href="mailto:marnix.medema@wur.nl">contact us</a>.
+      <br><br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </div>
+</footer>
+
+
+	</main>
+     </div>
+  </body>
+</html>
