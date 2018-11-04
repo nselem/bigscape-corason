@@ -26,15 +26,14 @@ $ ~/bin/run_bigscape  <br>
 ```
 <br>
 
-If BiG-SCAPE is correctly installed the terminal displays the help menu after some seconds:<br>
+If BiG-SCAPE is correctly installed the terminal displays the help menu after some seconds:<br><br>
       <div id="images">
-      <img src="{{ "/images/bigscape_help.png" | prepend: site.baseurl }}" width="630" height="69" align="left"><br>
+      <img src="{{ "/images/bigscape_help.png" | prepend: site.baseurl }}" width="630" height="300" align="center">
 </div>
-<br><br>
-
-
-<h3> Manual installation   </h3><br>
 <br>
+  
+  
+<h3>Manual installation   </h3>
 <h4> Requirements </h4>
 
 * Python (Python 3.x. compatibility with Python 2 is not guaranteed)<br>

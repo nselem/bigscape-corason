@@ -47,28 +47,31 @@ $ run_bigscape gbks example_output <br>
 ``` <br>
 <br>
 If everything goes well, the terminal will show something similar to:
-<br>
-<img src="{{ "/images/bigscape_example1.png" | prepend: site.baseurl }}" alt="Select class" width="400" height="100"/> <br>
- 
+<br><br>
+ <div id="images">
+<img src="{{ "/images/bigscape_example1.png" | prepend: site.baseurl }}" alt="Select class" width="400" height="300"/> <br>
+</div>  <br> <br>
 The _input_ for BiG-SCAPE is the directory _gbks_ that contains GenBank files of sequences of Biosynthetical gene clusters (BGCs) predicted by antiSMASH. The BiG-SCAPE _output_ will be stored in the directory `example_output`.
 <br>
 After BiG-SCAPE has finished successfully open the `index.html` file located inside the `example_output` folder with your browser, (e.g. Chrome or Firefox). The file contains an interactive offline webpage that displays the BiG-SCAPE results and allows you to explore them.  <br>
-
-<img src="{{ "/images/bigscape_example2.png" | prepend: site.baseurl }}" alt="Select class" width="400" height="100"/>   <br>
+ <div id="images"> <br> <br>
+<img src="{{ "/images/bigscape_example2.png" | prepend: site.baseurl }}" alt="Select class" width="900" height="600"/>   
+</div>
+<br> <br>
 To start exploring, select a class at the top of the site:  <br>
-
-<img src="{{ "/images/bigscape_example3.png" | prepend: site.baseurl }}" alt="Select class" width="400" height="100"/> <br>
- 
+ <div id="images">  
+<img src="{{ "/images/bigscape_example3.png" | prepend: site.baseurl }}" alt="Select class" width="500" height="300"/> <br>
+ </div> <br> <br>
 Now, the screen will display a network visualization of BGC families within this class.  <br>
-
-<img src="{{ "/images/bigscape_example4.png" | prepend: site.baseurl }}" alt="Chose family" width="300" height="300"/> <br>
-
+ <div id="images">
+<img src="{{ "/images/bigscape_example4.png" | prepend: site.baseurl }}" alt="Chose family" width="600" height="500"/> <br>
+</div> <br> <br>
 In this case, the NRPS class contains 10 BGCs organized in one gene cluster family of three members, one family of two members and five singletons.  <br>
 
 Now select a family in this network to visualize BGCs sorted and aligned by CORASON.  <br>
-
-<img src="{{ "/images/bigscape_example5.png" | prepend: site.baseurl }}" alt="Corason" width="600" height="200"/> <br>
-
+ <div id="images">
+<img src="{{ "/images/bigscape_example5.png" | prepend: site.baseurl }}" alt="Corason" width="800" height="400"/> <br>
+</div> <br> <br>
 This family contains three members.<br>
 
 
