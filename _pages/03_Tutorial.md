@@ -13,18 +13,18 @@ This tutorial explains how to download datasets to run BiG-SCAPE and CORASON, an
 <br>
 <h2> Example dataset</h2>
 <br>
-The example dataset consists on three parts: a set of genomes (includes a single cluster from MIBiG), a set of GenBank files (selected clusters predicted from the set of genomes) and the TauD sequence from a *Streptomyces* genome (NRRL B-1347).
+The example dataset consists on three parts: a set of genomes (includes a single cluster from MIBiG), a set of GenBank files (selected clusters predicted from the set of genomes) and the TauD sequence from a <i>Streptomyces</i> genome (NRRL B-1347).
 <br>
 Download and execute the following script to obtain the files:
 <br>
 
 
-```bash <br>
+<code> <br>
 $ mkdir ~/bin/example    # not required if you already have that <br>
 $ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh > ~/bin/example/data_bigscape_corason.sh <br>
 $ chmod a+x ~/bin/example/data_bigscape_corason.sh <br>
 $ cd ~/bin/example && ~/bin/example/data_bigscape_corason.sh <br>
-``` <br>
+</code> <br>
 
 
 
@@ -42,9 +42,9 @@ In this tutorial, we will work with the above example data. If you want to use y
 
 We will now proceed with the example data. Once data has been downloaded, run the following command at the terminal (you should be now in the `~/bin/example` folder):
 <br>
-```bash <br>
+<code> <br>
 $ run_bigscape gbks example_output <br>
-``` <br>
+</code> <br>
 <br>
 If everything goes well, the terminal will show something similar to:
 <br><br>

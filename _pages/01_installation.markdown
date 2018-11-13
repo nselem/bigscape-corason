@@ -18,12 +18,12 @@ At the moment, there are two methods available to run BiG-SCAPE:
 
 <h3> Installation using Docker </h3>  <br>
 
-<code>   <br>
+```bash   <br>
 $ mkdir ~/bin    # not required if you already have that  <br>
 $ curl -q https://git.wageningenur.nl/medema-group/BiG-SCAPE/raw/master/run_bigscape > ~/bin/run_bigscape  <br>
 $ chmod a+x ~/bin/run_bigscape  <br>
 $ ~/bin/run_bigscape  <br>
-</code>
+```
 <br>
 
 If BiG-SCAPE is correctly installed the terminal displays the help menu after some seconds:<br><br>
@@ -53,38 +53,39 @@ Although each library can be installed individually, the use of a virtual enviro
 * Install 
 <a href="https://conda.io/miniconda.html"> Miniconda </a>. We recommend that you install the Python 3 version as default for all new conda environments. You will need to login again for the changes to go into effect. You can download Miniconda as follows:
 <br>
-<br> <code>
+<br>
 
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh <br>
+	`wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh `  
+---  
+<br>
 	bash Miniconda3-latest-Linux-x86_64.sh <br>
- </code>
 <br>
 <br><br>
 * Create a new environment. You can choose Python 3 using `python=3` at the end of the next command even if you installed the Python 2 version of Miniconda (see additional documentation of the conda environment <a href="https://conda.io/docs/"> here </a>.
 <br>
-<code> <br>
+```bash <br>
 $ conda create --name bigscape <br>
-</code> <br>
+``` <br>
 <br><br>
 * Activate new environment:
 <br>
-<code> <br>
+```bash <br>
 $ source activate bigscape <br>
-</code> <br>
+``` <br>
 <br><br>
 * Install packages:
 <br>
-<code> <br>
+```bash <br>
 $ conda install numpy scipy scikit-learn <br>
 $ conda install -c bioconda hmmer biopython fasttree <br>
 $ conda install -c anaconda networkx <br>
-</code> <br>
+``` <br>
 <br><br>
 Once the environment is ready (or the packages installed) download or clone the code from the repository and run as
 <br>
-<code> <br>
+```bash <br>
 $ python bigscape.py [parameters] <br> 
-</code> <br>
+``` <br>
 <br><br>
 <a href="https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/parameters"> (see here for an overview of the options) </a>.
 
@@ -93,11 +94,11 @@ $ python bigscape.py [parameters] <br>
 
 <h3> Docker installation </h3>
 
-<code> <br>
+```bash <br>
 $ mkdir ~/bin    # not required if you already have that <br>
 $ curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason <br>
 $ chmod a+x ~/bin/run_corason <br>
-</code> <br>
+``` <br>
 
 </body>
 ----------------
