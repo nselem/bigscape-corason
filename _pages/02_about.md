@@ -19,4 +19,10 @@ Learn more about CORASON in the
 
 <a href="https://github.com/nselem/corason/wiki"> CORASON wiki </a>.<br><br>
 
+
+<h2 > CONTACT THE AUTHORS </h2> 
+
+BiG-SCAPE and CORASON were developed in a collaboration between the research groups of Francisco (Paco) Barona-Gomez at Cinvestav (Mexico) and Marnix Medema at Wageningen University (The Netherlands). The development of these tools was lead by Jorge Navarro-Muñoz and Nelly Selem-Mojica, respectively. <br> 
+<br> 
+For questions regarding CORASON, please contact  <a href="mailto:nselem84@gmail.com"> Nelly </a> and/or <a href="mailto:francisco.barona@cinvestav.mx"> Paco</a>. For questions regarding BiG-SCAPE, please contact  <a href="mailto:<jorge.c.navarro.munoz@gmail.com">Jorge</a> and/or  <a href="mailto:marnix.medema@wur.nl"> Marnix</a>.<br>
 </body>
