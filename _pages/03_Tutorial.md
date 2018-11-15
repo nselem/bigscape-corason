@@ -3,10 +3,10 @@ layout: page
 title: 
 permalink: /tutorial/
 ---
-<body>  
+<body>
 
 <h1> BiG-SCAPE / CORASON tutorial  </h1>
-<br>  
+<br>
 This tutorial explains how to download datasets to run BiG-SCAPE and CORASON, and provides examples for how to use both tools.
 <br>
 <h2> Input dataset  </h2>
@@ -87,6 +87,61 @@ In another example BiG-SCAPE was employed to calculate BGC familiess in 103 comp
 <h2> CORASON example </h2>
 <br>
 <h2> Corason example  </h2>
-`run_corason -g gbks -q TauD.faa -s BGC0000715.1.cluster001.gbk`    <br>
+
+<code>
+run_corason -g -q queryFile gbksDirectory referenceBGC
+</code> <br> 
+
+
+<h2> Example dataset</h2>
+<br>
+The example dataset consists on three parts: a set of genomes (includes a single cluster from MIBiG), a set of GenBank files (selected clusters predicted from the set of genomes) and the TauD sequence from a <i>Streptomyces</i> genome (NRRL B-1347).
+<br>
+Download and execute the following script to obtain the files:
+<br>
+
+
+<code> <br>
+$ mkdir ~/bin/example    # not required if you already have that <br>
+$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh > ~/bin/example/data_bigscape_corason.sh <br>
+$ chmod a+x ~/bin/example/data_bigscape_corason.sh <br>
+$ cd ~/bin/example && ~/bin/example/data_bigscape_corason.sh <br>
+ls <br> 
+</code>
+<br><br> 
+The content of ~/bin/example after the download must be similar to the next figure. <br> 
+<br><br>
+ <div id="images">
+<img src="{{ "/images/mydir.png" | prepend: site.baseurl }}" alt="Corason dyr" width="350" height="300"/> <br>
+
+</div>
+Now, to identify every variation of the genomic vicinity of the TauD enzyme, similar to the BGC JMGX01000001.1.cluster003.gbk, execute CORASON by runing: <br> <br> 
+
+<code> 
+run_corason TauD.fasta gbks gbks/JMGX01000001.1.cluster003.gbk <br>  
+  
+</code> <br>
+
+The output will be in the file query-output, in this case TauD.fasta-output. Use firefox to see a figure with the information.  
+<br> <br>
+<code> 
+firefox TauD.fasta-output/Joined.svg <br>  
+  
+</code> <br>
+
+<br><br>
+ <div id="images">
+<img src="{{ "/images/corason_example.png" | prepend: site.baseurl }}" alt="Corason example" width="600" height="350"/> <br>
+
+</div>
+
+Switch to genoems will give you more information   <br>
+<code >
+ ~/bin/run_corason TauD.fasta genomes genomes/JOBW01.gbk <br>
+</code>
+ <div id="images">
+<img src="{{ "/images/corason_genomes.png" | prepend: site.baseurl }}" alt="Corason example" width="600" height="750"/> <br>
+
+</div>
 
 </body>

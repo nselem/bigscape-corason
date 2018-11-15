@@ -95,9 +95,18 @@ $ python bigscape.py [parameters] <br>
 
 <code> <br>
 $ mkdir ~/bin    # not required if you already have that <br>
-$ curl -q https://github.com/nselem/corason/blob/master/run_corason > ~/bin/run_corason <br>
+$ curl -q https://raw.githubusercontent.com/nselem/corason/master/run_corason > ~/bin/run_corason <br>
 $ chmod a+x ~/bin/run_corason <br>
+$ ~/bin/run_corason
+<br>
 </code> <br>
+If CORASON is correctly installed the terminal displays the help menu after some seconds:<br><br>
+      <div id="images">
+      <img src="{{ "/images/corason_help.png" | prepend: site.baseurl }}" width="630" height="500" align="center">
+</div>
+<br>
+  
+
 
 </body>
 ----------------
