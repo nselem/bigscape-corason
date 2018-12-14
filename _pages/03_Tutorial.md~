@@ -21,8 +21,7 @@ Download and execute the following script to obtain the files:
 
 <code> <br>
 $ mkdir ~/bin/example    # not required if you already have that <br>
-$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh <br>
-$ mv data_bigscape_corason.sh ~/bin/example/data_bigscape_corason.sh <br>
+$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh > ~/bin/example/data_bigscape_corason.sh <br>
 $ chmod a+x ~/bin/example/data_bigscape_corason.sh <br>
 $ cd ~/bin/example && ~/bin/example/data_bigscape_corason.sh <br>
 </code> <br>
@@ -104,8 +103,7 @@ Download and execute the following script to obtain the files:
 
 <code> <br>
 $ mkdir ~/bin/example    # not required if you already have that <br>
-$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh <br>
-$ mv data_bigscape_corason.sh ~/bin/example/data_bigscape_corason.sh <br>
+$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh > ~/bin/example/data_bigscape_corason.sh <br>
 $ chmod a+x ~/bin/example/data_bigscape_corason.sh <br>
 $ cd ~/bin/example && ~/bin/example/data_bigscape_corason.sh <br>
 ls <br> 
@@ -120,7 +118,7 @@ The content of ~/bin/example after the download must be similar to the next figu
 Now, to identify every variation of the genomic vicinity of the TauD enzyme, similar to the BGC JMGX01000001.1.cluster003.gbk, execute CORASON by runing: <br> <br> 
 
 <code> 
-~/bin/run_corason TauD.fasta gbks gbks/JMGX01000001.1.cluster003.gbk <br>  
+run_corason TauD.fasta gbks gbks/JMGX01000001.1.cluster003.gbk <br>  
   
 </code> <br>
 
