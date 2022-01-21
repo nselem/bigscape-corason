@@ -29,7 +29,7 @@ yme phylogenies.   <br><br>
 Please consult our [bigscape-corason website](https://bigscape-corason.secondarymetabolites.org/). To get a more
  detailed explanation about parameters in BiG-SCAPE or CORASON please consult their wiki sites.  <br><br>
 
-Note that the official repository has moved from [GitLab](https://git.wageningenur.nl/medema-group/BiG-SCAPE/-/tree/master) to [GitHub](https://github.com/medema-group/BiG-SCAPE)
+Note that the official BiG-SCAPE repository has moved from [GitLab](https://git.wageningenur.nl/medema-group/BiG-SCAPE/-/tree/master) to [GitHub](https://github.com/medema-group/BiG-SCAPE)
 Please use the issues of that repository to communicate with us !
 
 </body>
