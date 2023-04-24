@@ -1,4 +1,8 @@
 
+# Issues  
+New issues are accepted in the new [bigscape oficial site](https://github.com/nselem/bigscape)  
+Issues are disabled in this repo.  
+
 <table align="center">
 	<tr>
       <td> <img src="images/bigscape_corason.png" alt="corason" width="600px"/>  </td>
