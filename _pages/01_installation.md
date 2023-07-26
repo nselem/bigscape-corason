@@ -12,28 +12,24 @@ The following instructions cover <a href="https://www.docker.com/"> Docker </a> 
 <h2> BiG-SCAPE installation </h2>
 
 At the moment, there are two methods available to run BiG-SCAPE:
-<br>
+
 - Using the pre-built Docker image, a slightly larger download but zero-fuss install on any system that can run Docker.<br>
 - Installing all the dependencies (using a virtual environment is recommended).<br>
 
-<h3> Installation using Docker </h3>  <br>
+<h3> Installation using Docker </h3>
 
-<code>   <br>
-$ mkdir ~/bin    # not required if you already have that  <br>
-$ curl -q https://git.wageningenur.nl/medema-group/BiG-SCAPE/raw/master/run_bigscape > ~/bin/run_bigscape  <br>
-$ chmod a+x ~/bin/run_bigscape  <br>
-$ ~/bin/run_bigscape  <br>
-</code>
-<br>
+```
+$ mkdir ~/bin    # not required if you already have that
+$ curl -q https://git.wageningenur.nl/medema-group/BiG-SCAPE/raw/master/run_bigscape > ~/bin/run_bigscape
+$ chmod a+x ~/bin/run_bigscape
+$ ~/bin/run_bigscape
+```
 
-If BiG-SCAPE is correctly installed the terminal displays the help menu after some seconds:<br><br>
-      <div id="images">
-      <img src="{{ "/images/bigscape_help.png" | prepend: site.baseurl }}" width="630" height="300" align="center">
-</div>
-<br>
-  
-  
-<h3>Manual installation   </h3>
+If BiG-SCAPE is correctly installed the terminal displays the help menu after some seconds:
+
+<img src="/images/bigscape_help.png" align="center">
+
+<h3>Manual installation</h3>
 <h4> Requirements </h4>
 
 * Python (Python 3.x. compatibility with Python 2 is not guaranteed)<br>
@@ -45,7 +41,7 @@ file from the <a href="ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/"> Pfam w
 * scipy<br>
 * scikit-learn<br>
 * NetworkX<br>
-<br><br>
+
 <h4>  Installing dependencies using Conda </h4>  
 
 Although each library can be installed individually, the use of a virtual environment is highly recommended. Here is a quick guide for BiG-SCAPE installation using Miniconda (downloading the Pfam library manually is still necessary):
