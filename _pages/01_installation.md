@@ -36,11 +36,11 @@ If BiG-SCAPE is correctly installed the terminal displays the help menu after so
 * The <a href="http://hmmer.org/"> HMMER </a> suite, version 3.2 (or any version compatible with Pfam)
 * The (processed) Pfam database. For this, download the latest `Pfam-A.hmm.gz` file from the <a href="ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/"> Pfam website </a>, uncompress it and process it using the `hmmpress` command.
   - *it can downloaded from http://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/Pfam-A.hmm.gz*
-* Biopython<br>
-* Numpy<br>
-* scipy<br>
-* scikit-learn<br>
-* NetworkX<br>
+* Biopython
+* Numpy
+* scipy
+* scikit-learn
+* NetworkX
 
 <h4>  Installing dependencies using Conda </h4>  
 
@@ -57,27 +57,27 @@ $ bash Miniconda3-latest-Linux-x86_64.sh
 * Create a new environment. You can choose Python 3 using `python=3` at the end of the next command even if you installed the Python 2 version of Miniconda (see additional documentation of the conda environment [here](https://conda.io/docs/).
 
 ```
-$ conda create --name bigscape <br>
+$ conda create --name bigscape
 ```
 
 * Activate new environment:
 
 ```
-$ source activate bigscape <br>
+$ source activate bigscape
 ```
 
 * Install packages:
 
 ```
-$ conda install numpy scipy scikit-learn <br>
-$ conda install -c bioconda hmmer biopython fasttree <br>
-$ conda install -c anaconda networkx <br>
+$ conda install numpy scipy scikit-learn
+$ conda install -c bioconda hmmer biopython fasttree
+$ conda install -c anaconda networkx
 ```
 
 Once the environment is ready (or the packages installed) download or clone the code from the repository and run as
 
 ```
-$ python bigscape.py [parameters] <br> 
+$ python bigscape.py [parameters]
 ```
 
 See [here](https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/parameters) for an overview of the options.
