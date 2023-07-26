@@ -7,7 +7,7 @@ permalink: /installation/
 
 <h1> Installation </h1>
 
-The following instructions cover <a href="https://www.docker.com/"> Docker </a> installation of both pipelines: [BiG-SCAPE](#big-scape-installation) and [CORASON](#corason-installation). BiG-SCAPE can also be installed manually or within a virtual environment. Docker is a container platform provider available for multiple operative systems such as Mac OS X, Windows 10 and Linux (Fedora, Ubuntu, Centos and Debian). To install Docker consult <a href="{{ "/DockerInstall" | prepend: site.baseurl }}"> here </a>. The installation procedure uses `curl`. See <a href="{{ "/Curlinstallation" | prepend: site.baseurl }}"> curl installation </a> if you don't have it.<br>
+The following instructions cover <a href="https://www.docker.com/"> Docker </a> installation of both pipelines: [BiG-SCAPE](#big-scape-installation) and [CORASON](#corason-installation). BiG-SCAPE can also be installed manually or within a virtual environment. Docker is a container platform provider available for multiple operative systems such as Mac OS X, Windows 10 and Linux (Fedora, Ubuntu, Centos and Debian). To install Docker consult [here](/_pages/05_DockerInstall.md). The installation procedure uses `curl`. See [curl installation](/_pages/04_Curlinstallation.md) if you don't have it.<br>
 
 <h2> BiG-SCAPE installation </h2>
 
