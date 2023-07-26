@@ -87,8 +87,8 @@ The example dataset consists on three parts: a set of genomes (includes a single
 Download and execute the following script to obtain the files:
 
 ```
+$ mkdir ~/bin            # not required if you already have that
 $ mkdir ~/bin/example    # not required if you already have that
-$ mkdir ~/bin    # not required if you already have that
 $ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh
 $ mv data_bigscape_corason.sh ~/bin/example/data_bigscape_corason.sh
 $ chmod a+x ~/bin/example/data_bigscape_corason.sh
