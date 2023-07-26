@@ -45,46 +45,43 @@ If BiG-SCAPE is correctly installed the terminal displays the help menu after so
 <h4>  Installing dependencies using Conda </h4>  
 
 Although each library can be installed individually, the use of a virtual environment is highly recommended. Here is a quick guide for BiG-SCAPE installation using Miniconda (downloading the Pfam library manually is still necessary):
-<br>
-* Install 
-<a href="https://conda.io/miniconda.html"> Miniconda </a>. We recommend that you install the Python 3 version as default for all new conda environments. You will need to login again for the changes to go into effect. You can download Miniconda as follows:
-<br>
-<br> <code>
 
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh <br>
-	bash Miniconda3-latest-Linux-x86_64.sh <br>
- </code>
-<br>
-<br><br>
-* Create a new environment. You can choose Python 3 using `python=3` at the end of the next command even if you installed the Python 2 version of Miniconda (see additional documentation of the conda environment <a href="https://conda.io/docs/"> here </a>.
-<br>
-<code> <br>
+* Install 
+[Miniconda](https://conda.io/miniconda.html). We recommend that you install the Python 3 version as default for all new conda environments. You will need to login again for the changes to go into effect. You can download Miniconda as follows:
+
+```
+$ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+$ bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+* Create a new environment. You can choose Python 3 using `python=3` at the end of the next command even if you installed the Python 2 version of Miniconda (see additional documentation of the conda environment [here](https://conda.io/docs/).
+
+```
 $ conda create --name bigscape <br>
-</code> <br>
-<br><br>
+```
+
 * Activate new environment:
-<br>
-<code> <br>
+
+```
 $ source activate bigscape <br>
-</code> <br>
-<br><br>
+```
+
 * Install packages:
-<br>
-<code> <br>
+
+```
 $ conda install numpy scipy scikit-learn <br>
 $ conda install -c bioconda hmmer biopython fasttree <br>
 $ conda install -c anaconda networkx <br>
-</code> <br>
-<br><br>
-Once the environment is ready (or the packages installed) download or clone the code from the repository and run as
-<br>
-<code> <br>
-$ python bigscape.py [parameters] <br> 
-</code> <br>
-<br><br>
-<a href="https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/parameters"> (see here for an overview of the options) </a>.
+```
 
-<br>
+Once the environment is ready (or the packages installed) download or clone the code from the repository and run as
+
+```
+$ python bigscape.py [parameters] <br> 
+```
+
+See [here](https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/parameters) for an overview of the options.
+
 <h2> Corason installation </h2>  
 
 <h3> Docker installation </h3>
