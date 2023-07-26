@@ -32,10 +32,10 @@ If BiG-SCAPE is correctly installed the terminal displays the help menu after so
 <h3>Manual installation</h3>
 <h4> Requirements </h4>
 
-* Python (Python 3.x. compatibility with Python 2 is not guaranteed)<br>
-* The <a href="http://hmmer.org/"> HMMER </a> suite, version 3.2 (or any version compatible with Pfam)<br>
-* The (processed) Pfam database. For this, download the latest `Pfam-A.hmm.gz`<br>
-file from the <a href="ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/"> Pfam website </a>, uncompress it and process it using the `hmmpress` command.<br>
+* Python (Python 3.x. compatibility with Python 2 is not guaranteed)
+* The <a href="http://hmmer.org/"> HMMER </a> suite, version 3.2 (or any version compatible with Pfam)
+* The (processed) Pfam database. For this, download the latest `Pfam-A.hmm.gz` file from the <a href="ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/"> Pfam website </a>, uncompress it and process it using the `hmmpress` command.
+  - *it can downloaded from http://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/Pfam-A.hmm.gz*
 * Biopython<br>
 * Numpy<br>
 * scipy<br>
