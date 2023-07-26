@@ -6,34 +6,29 @@ permalink: /tutorial/
 <body>
 
 <h1> BiG-SCAPE / CORASON tutorial  </h1>
-<br>
+
 This tutorial explains how to download datasets to run BiG-SCAPE and CORASON, and provides examples for how to use both tools.
-<br>
+
 <h2> Input dataset  </h2>
-<br>
+
 <h2> Example dataset</h2>
-<br>
+
 The example dataset consists on three parts: a set of genomes (includes a single cluster from MIBiG), a set of GenBank files (selected clusters predicted from the set of genomes) and the TauD sequence from a <i>Streptomyces</i> genome (NRRL B-1347).
-<br>
+
 Download and execute the following script to obtain the files:
-<br>
 
+```
+$ mkdir ~/bin            # not required if you already have that
+$ mkdir ~/bin/example    # not required if you already have that
+$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh --output ~/bin/example/data_bigscape_corason.sh
+$ chmod a+x ~/bin/example/data_bigscape_corason.sh
+$ cd ~/bin/example
+$ ~/bin/example/data_bigscape_corason.sh
+```
 
-<code> <br>
-$ mkdir ~/bin/example    # not required if you already have that <br>
-$ curl https://raw.githubusercontent.com/nselem/bigscape-corason/master/scripts/data_bigscape_corason.sh <br>
-$ mv data_bigscape_corason.sh ~/bin/example/data_bigscape_corason.sh <br>
-$ chmod a+x ~/bin/example/data_bigscape_corason.sh <br>
-$ cd ~/bin/example && ~/bin/example/data_bigscape_corason.sh <br>
-</code> <br>
-
-
-
-<br>
 Data can also be downloaded manually at: 
 <a href="https://doi.org/10.5281/zenodo.1463920"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1463920.svg" alt="DOI"></a>
 
-<br>
 <h3> How to compile your own input dataset </h3>   
 <br>
 In this tutorial, we will work with the above example data. If you want to use your own gene clusters as input for BiG-SCAPE and the CORASON family mode integrated within the BiG-SCAPE pipeline, you can search for publicly available genomes in
