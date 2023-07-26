@@ -13,8 +13,8 @@ The following instructions cover <a href="https://www.docker.com/"> Docker </a> 
 
 At the moment, there are two methods available to run BiG-SCAPE:
 
-- Using the pre-built Docker image, a slightly larger download but zero-fuss install on any system that can run Docker.<br>
-- Installing all the dependencies (using a virtual environment is recommended).<br>
+- Using the pre-built Docker image, a slightly larger download but zero-fuss install on any system that can run Docker.
+- Installing all the dependencies (using a virtual environment is recommended).
 
 <h3> Installation using Docker </h3>
 
@@ -27,7 +27,7 @@ $ ~/bin/run_bigscape
 
 If BiG-SCAPE is correctly installed the terminal displays the help menu after some seconds:
 
-<img src="/images/bigscape_help.png" align="center">
+<img src="/images/bigscape_help.png" align="center" />
 
 <h3>Manual installation</h3>
 <h4> Requirements </h4>
@@ -86,20 +86,15 @@ See [here](https://git.wageningenur.nl/medema-group/BiG-SCAPE/wikis/parameters) 
 
 <h3> Docker installation </h3>
 
-<code> <br>
-$ mkdir ~/bin    # not required if you already have that <br>
-$ curl -q https://raw.githubusercontent.com/nselem/corason/master/run_corason > ~/bin/run_corason <br>
-$ chmod a+x ~/bin/run_corason <br>
+```
+$ mkdir ~/bin    # not required if you already have that
+$ curl -q https://raw.githubusercontent.com/nselem/corason/master/run_corason > ~/bin/run_corason
+$ chmod a+x ~/bin/run_corason
 $ ~/bin/run_corason
-<br>
-</code> <br>
-If CORASON is correctly installed the terminal displays the help menu after some seconds:<br><br>
-      <div id="images">
-      <img src="{{ "/images/corason_help.png" | prepend: site.baseurl }}" width="630" height="500" align="center">
-</div>
-<br>
-  
+```
 
+If CORASON is correctly installed the terminal displays the help menu after some seconds:
 
-</body>
+<img src="/images/corason_help.png" align="center">
+
 ----------------
