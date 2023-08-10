@@ -2,7 +2,7 @@
 title: BiG-SCAPE CORASON
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  July 2018
+  August 2023
 baseurl: /bigscape-corason
 url: "http://localhost:4000"
 github: [metadata]
